@@ -19,7 +19,7 @@ body
 
 .container img
 {
-	object-fit: cover;
+	height:90%;
 	
 }
 .boxContainer
@@ -28,6 +28,18 @@ body
   text-align: left;
 
 
+}
+@media all and (min-width:321px) and (max-width: 480px) {
+	#wrapper{
+	background-color:brown;
+	width:100% !important;
+	height:100vh !important;
+}
+ .container img
+{
+	height:90%;
+	
+}
 }
 
 .box1 img {
