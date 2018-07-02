@@ -51,9 +51,13 @@ body
 	width:100% !important;
 	height:100vh !important;
 }
+.container
+{
+	text-align:center;
+}
  .container img
 {
-	height:90%;
+	height:95%;
 	
 }
 }
