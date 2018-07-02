@@ -197,11 +197,12 @@ margin:0 auto;
  
 }
 .container1 {
-   position: absolute;
+   position: relative;
     width: 90%;
-    bottom: -60px;
-    background: red;
-    left: 5%;
+   margin: 0 auto;
+   display:table;
+   background:#585858;
+   
     
     
 }
@@ -231,14 +232,7 @@ margin:0 auto;
     position: relative;
 
 }
-.container1 {
-  position: absolute;
-    width: 90%;
-    bottom: -65px;
-    background: red;
-    left: 5%;
-    
-}
+
 
 
 .text-style{
@@ -273,15 +267,6 @@ margin:0 auto;
 }
 
 
-.container1 {
-   position: absolute;
-    width: 90%;
-    bottom: -147px;
-    background: red;
-    left: 5%;
-    
-    
-}
 
 .text-style{
            font-size: 34px;
@@ -315,14 +300,7 @@ margin:0 auto;
 }
 
 
-.container1 {
-     position: absolute;
-    width: 68%;
-    bottom: -94px;
-    background: red;
-    left: 16%;
-    
-}
+
 
 .text-style{
        font-size: 28px;
