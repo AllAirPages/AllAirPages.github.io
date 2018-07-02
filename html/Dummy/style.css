@@ -42,6 +42,20 @@ body
 }
 }
 
+@media all and (min-width:481px) and (max-width: 568px) {
+ 	#wrapper{
+	background-color:pink;
+	width:100% !important;
+	height:100vh !important;
+}
+ .container img
+{
+	height:90%;
+	
+}
+}
+
+
 .box1 img {
     width: 100%;
     margin-top: 15px;
