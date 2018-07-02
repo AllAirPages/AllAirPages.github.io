@@ -9,7 +9,9 @@ body
   height:100%;
 }
 #wrapper{
-	width:100% !important;
+	width:600px;
+	margin:0 auto;
+	text-align:center;
 	height:100vh !important;
 }
 .container
@@ -22,6 +24,22 @@ body
 	margin:0 auto;
 	font-size:14px;
 	text-align:center;
+}
+.text-div{
+        width: 50%;
+    height: 50px;
+    text-align: center;
+    background-color: #e91e22;
+    color: white;
+  top:20%;
+margin:0 auto;
+    position: relative;
+
+}
+.text-div p
+{
+	font-size:20px;
+	position:absolute;
 }
 .container img
 {
@@ -60,17 +78,7 @@ body
 	height:95vh !important;
 
 } 
-.text-div{
-        width: 70%;
-    height: 50px;
-    text-align: center;
-    background-color: #e91e22;
-    color: white;
-  top:20%;
-margin:0 auto;
-    position: absolute;
 
-}
 .container
 {
 	text-align:center;
