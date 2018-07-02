@@ -54,7 +54,12 @@ body
     margin-left: 40%;
     cursor:pointer;
 }
-
+.counter
+{
+	margin:0 auto;
+	font-size:14px;
+	text-align:center;
+}
 .bottom-text-div{
     width: 90%;
     float: left;
