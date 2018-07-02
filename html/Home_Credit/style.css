@@ -34,11 +34,12 @@ body
 }
 
 .container1 {
-     position: absolute;
+     position: relative;
     width: 90%;
-    bottom: -96px;
+    
     background: #585858;
-    left: 20px;
+    margin:0 auto;
+	display:table;
 
     
     
@@ -343,7 +344,13 @@ margin:0 auto;
 
 @media only screen and (min-width: 992px) and (max-width: 1999px){ #wrapper{
 width:400px;
-margin:0 auto;
+margin: 0 auto;
+
+background: green;
+
+height: 100%;
+
+display: table;
 
 } }
 /*@media only screen and (min-width: 768px) and (max-width: 991px){
