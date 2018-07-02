@@ -45,21 +45,9 @@ body
 }
 }
 
-@media all and (min-width:481px) and (max-width: 568px) {
+@media only screen and (min-width:481px) and (max-width: 1280px) {
  	#wrapper{
-	background-color:pink;
-	width:100% !important;
-	height:100vh !important;
-}
- .container img
-{
-	height:90%;
-	
-}
-}
-@media all and (min-width:569px) and (max-width: 768px) {
-   	#wrapper{
-	background-color:grAY;
+	background-color:gray;
 	width:100% !important;
 	height:100vh !important;
 }
@@ -70,27 +58,6 @@ body
 }
 }
 
-@media all and (min-width:769px) and (max-width: 1920px) {
-	#wrapper{
-	background-color:purple;
-	width:100% !important;
-	height:100vh !important;
-}
- .container img
-{
-	height:90%;
-	
-}
-}
-
-.box1 img {
-    width: 100%;
-    margin-top: 15px;
-}
-.box1
-{
-  width: 95vh;
-}
 
 
 /*@media only screen and (min-width: 768px) and (max-width: 991px){
