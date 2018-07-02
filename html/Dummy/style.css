@@ -54,6 +54,18 @@ body
 	
 }
 }
+@media all and (min-width:569px) and (max-width: 768px) {
+   	#wrapper{
+	background-color:grAY;
+	width:100% !important;
+	height:100vh !important;
+}
+ .container img
+{
+	height:90%;
+	
+}
+}
 
 
 .box1 img {
