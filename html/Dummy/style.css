@@ -60,6 +60,17 @@ body
 	height:95vh !important;
 
 } 
+.text-div{
+        width: 70%;
+    height: 50px;
+    text-align: center;
+    background-color: #e91e22;
+    color: white;
+  top:20%;
+margin:0 auto;
+    position: absolute;
+
+}
 .container
 {
 	text-align:center;
