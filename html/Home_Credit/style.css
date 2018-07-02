@@ -98,7 +98,7 @@ body
     height: 7%;
     width: 12%;
     right: 9%;
-    top: 51%;
+    top: 43%;
 }
 
 .container .button2 {
@@ -106,7 +106,7 @@ body
     height: 7%;
     width: 12%;
     /* right: 63px; */
-    top: 33%;
+    top: 29%;
     left: 20%;
 }
 
@@ -115,7 +115,7 @@ body
    height: 7%;
     width: 12%;
     /* right: 63px; */
-    top: 46%;
+    top: 40%;
     left: 44%;
 }
 .container .button3a {
@@ -123,7 +123,7 @@ body
     height: 7%;
     width: 12%;
     /* right: 63px; */
-    top: 56%;
+    top: 48%;
     left: 44%;
 }
 .container .button4 {
@@ -139,7 +139,7 @@ body
    height: 7%;
     width: 12%;
     /* right: 63px; */
-    top: 92%;
+    top: 81%;
     left: 45%;
 }
 .container .button7 {
@@ -147,7 +147,7 @@ body
     height: 7%;
     width: 12%;
     /* right: 63px; */
-    top: 67%;
+    top: 58%;
     left: 66%;
 }
 .container .button6 {
@@ -155,7 +155,7 @@ body
     height: 7%;
      width: 12%;
     /* right: 63px; */
-    top: 54%;
+    top: 47%;
     left: 66%;
 }
 
@@ -324,7 +324,7 @@ margin:0 auto;
 width:400px;
 margin: 0 auto;
 
-background: green;
+
 
 height: 100%;
 
