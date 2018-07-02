@@ -1,0 +1,244 @@
+@font-face {
+  font-family: 'Tondo';
+  src: url('Fonts/Tondo_Corp_Rg.ttf'); /* IE9 Compat Modes */
+  src: url('Fonts/Tondo_Corp_Rg.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Super Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Fonts/Tondo_Corp_Rg.ttf#svgFontName') format('svg'); /* Legacy iOS */
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Tondo', Fallback, calbri;
+  
+}
+.wrapper
+{
+  
+  background-color: #f6f6f6;
+  display: table;
+  
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 120px; 
+  width:1170px;
+}
+
+
+
+.divcontainer
+{
+  margin:0 auto;
+}
+
+
+
+
+.col1
+  {
+    margin:0 auto;
+    width: 30%;
+  text-align: left;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #eeeeee;
+  float: left;
+  margin-left: 2px; 
+ }
+ 
+ .divcontainer
+ {
+   background-color:#f6f6f6;
+  
+ }
+ h3
+ {
+   font-size: 24px;
+margin: 20px 0 0;
+padding: 0 20px 20px;
+text-align: left;
+font-weight:500;
+ }
+
+
+
+.container
+{
+  
+  margin: 0 auto;
+  
+  width: 1170px;
+}
+
+
+.box1{
+    width: 180px;
+    margin: 20px;
+    margin-right: 0;
+    padding: 10px;
+    
+    position:relative;
+    display: inline-block;
+    background: -webkit-gradient(linear, 0% 20%, 0% 1000%, from(#fff), to(#fff), color-stop(.1,#f3f3f3));
+    border: 1px solid #ccc;
+    text-align: center;
+   /* -webkit-box-shadow: 0px 3px 30px rgba(0, 0, 0, 0.1) inset;
+    -webkit-border-bottom-right-radius: 6px 50px;    */
+}
+
+.box1:before{
+    content: '';
+    width: 50px;
+    height: 100px;
+    position:absolute;
+    bottom:0; right:0;
+    -webkit-box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.1);
+    z-index:-1;
+    -webkit-transform: translate(-35px,-40px)
+                        skew(0deg,30deg)
+                        rotate(-25deg);
+}
+
+.box1:after{
+    content: '';
+    width: 100px;
+    height: 100px;
+    top:0; left:0;
+    position:absolute;
+    display: inline-block;
+    z-index:-1;
+   /* -webkit-box-shadow: -10px -10px 10px rgba(0, 0, 0, 0.2);
+    -webkit-transform: rotate(2deg)
+                        translate(20px,25px)
+                        skew(20deg);*/
+}
+
+.boxContainer
+{
+  width: 100%;
+  text-align: left;
+
+
+}
+
+.box1 img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+p{ 
+    margin-top: 15px;
+    
+    font-size: 14px;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #4A4A4A !important;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #6B6B6B !important ;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  h3
+ {
+   font-size: 1.5em;
+margin: 10px 0 0;
+padding: 0 30px 30px;
+ }
+ .wrapper
+ {
+  width: 100%;
+ }
+
+  .arrowclass:after {content: url('../img/right_arrow.png');
+  margin:8px;
+float: right; }
+
+
+.container
+{
+  margin: none;
+  width: auto;
+}
+
+ 
+
+ }
+
+  /*##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  h3
+ {
+   font-size: 2em;
+margin: 14px 0 0;
+padding: 0 30px 30px;
+ }
+
+
+ .wrapper
+ {
+  width: 100%;
+ }
+ .box1
+ {
+  width: auto;
+ }
+.container
+{
+  height: 100%;
+  position: relative;
+}
+
+
+
+
+ }
+
+ @media (min-width: 768px) and (max-width: 1024px) {
+  
+  .box
+  {
+    width: 400px;
+    h3
+  }
+ {
+   font-size: 3em;
+margin: 20px 0 0;
+padding: 0 30px 30px;
+ }
+
+#header
+{
+  
+  width: 100%;
+  background-color: #ffffff;
+  height: auto;
+}
+.wrapper
+{
+  width:100%;
+}
+.box1
+{
+  width: 90%;
+}
+
+
+.container
+{
+  margin: none;
+  width: auto;
+}
+
+  
+}
+
