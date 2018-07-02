@@ -57,7 +57,8 @@ body
 .counter
 {
 	margin:0 auto;
-	font-size:14px;
+	font-size:20px;
+	height:5% !important;
 	text-align:center;
 }
 .bottom-text-div{
