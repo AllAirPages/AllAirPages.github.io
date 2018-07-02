@@ -58,7 +58,7 @@ body
 {
 	margin:0 auto;
 	font-size:20px;
-	height:5% !important;
+	height:5vh !important;
 	text-align:center;
 }
 .bottom-text-div{
@@ -71,7 +71,7 @@ body
 .container{
     position: relative;
     width: auto;
-	height:95% !important;
+	height:95vh !important;
     background:blue;
 	display:inline-block;
 	text-align:center;
