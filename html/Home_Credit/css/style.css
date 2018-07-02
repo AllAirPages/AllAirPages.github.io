@@ -26,6 +26,9 @@ body
   padding-bottom: 12px; 
   width:98%;
 }
+.red {
+  color: red;
+}
 #English
 {
   display: block;
