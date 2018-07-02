@@ -70,8 +70,8 @@ body
 
 .container{
     position: relative;
-    width: 95%;
-	height:95% !important;
+    width: 95vh;
+	height:95vh !important;
     background:blue;
 	display:inline-block;
 	text-align:center;
