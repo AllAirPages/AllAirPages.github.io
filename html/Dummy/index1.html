@@ -19,97 +19,15 @@
 			</div> -->
 			<div id="wrapper">
 			<div class="container" id="div1">
-			<img src="images/1.png">
-				<div class="btnPos"> <img src="images/btn.gif" class="button1" onclick="myFunction1()"></div>
+			<img src="images/1.png" id="mainImg">
+				<div class="btnPos"> <img src="images/btn.gif" class="button1" value="Count" id="countButton"></div>
 			<div class="text-div">
-		
-
-				
-				<div class="bottom-text-div"><p class="text-style">Tap on CASH MANAGEMENT SERVICES.</p></div>
+						<div class="bottom-text-div"><p class="text-style" id="aum">Tap on CASH MANAGEMENT SERVICES.</p></div>
 				</div>
 		
 		</div>
 		
-		<div class="container" id="div2">
-			<img src="images/2.png">
-		<div class="btnPos"> <img src="images/btn.gif" class="button1" onclick="myFunction2()"></div>
-			<div class="text-div">
 		
-
-				
-				<div class="bottom-text-div"><p class="text-style">Tap on CASH MANAGEMENT SERVICES.</p></div>
-				</div>
-		
-		</div>
-
-			<div class="container" id="div3">
-			<img src="images/3.png">
-			<div class="btnPos"> <img src="images/btn.gif" class="button1" onclick="myFunction3()"></div>
-			<div class="text-div">
-		
-
-				
-				<div class="bottom-text-div"><p class="text-style">Tap on CASH MANAGEMENT SERVICES.</p></div>
-				</div>
-		
-		</div>
-
-	<div class="container" id="div4">
-			<img src="images/4.png">
-			<div class="btnPos"> <img src="images/btn.gif" class="button1" onclick="myFunction4()"></div>
-			<div class="text-div">
-		
-
-				
-				<div class="bottom-text-div"><p class="text-style">Tap on CASH MANAGEMENT SERVICES.</p></div>
-				</div>
-		
-		</div>
-
-	<div class="container" id="div5">
-			<img src="images/5.png">
-			<div class="btnPos"> <img src="images/btn.gif" class="button1" onclick="myFunction5()"></div>
-			<div class="text-div">
-		
-
-				
-				<div class="bottom-text-div"><p class="text-style">Tap on CASH MANAGEMENT SERVICES.</p></div>
-				</div>
-		
-		</div>
-
-	<div class="container" id="div6">
-			<img src="images/6.png">
-			<div class="btnPos"> <img src="images/btn.gif" class="button1" onclick="myFunction6()"></div>
-			<div class="text-div">
-		
-
-				
-				<div class="bottom-text-div"><p class="text-style">Tap on CASH MANAGEMENT SERVICES.</p></div>
-				</div>
-		
-		</div>
-
-	<div class="container" id="div7">
-			<img src="images/7.png">
-			<div class="btnPos"> <img src="images/btn.gif" class="button1" onclick="myFunction7()"></div>
-			<div class="text-div">
-		
-
-				
-				<div class="bottom-text-div"><p class="text-style">Tap on CASH MANAGEMENT SERVICES.</p></div>
-				</div>
-		
-		</div>
-			<div class="container" id="div8">
-			<img src="images/8.png">
-			<div class="btnPos"> <img src="images/btn.gif" class="button1" onclick="myFunction8()"></div>
-			<div class="text-div">
-		
-
-				
-				<div class="bottom-text-div"><p class="text-style">Tap on CASH MANAGEMENT SERVICES.</p></div>
-				</div>
 		
 		</div>
 
@@ -120,48 +38,29 @@
 		</div>
 	
 
-
+<script type="text/javascript" src="js/jquery.min.js"></script>
 <script>
-function myFunction1() {
 
-          document.getElementById('div2').style.display='block';
-          document.getElementById('div1').style.display='none';
-        
-    
-}
-function myFunction2() {
+var count = 2;
+	  var backcount;
+      var button = document.getElementById("countButton");
+      // var backbutton = document.getElementById("bckbtn");
 
-          document.getElementById('div2').style.display='none';
-          document.getElementById('div3').style.display='block';
-        
-    
-}
-function myFunction3() {
+      button.onclick = function()
+      {
 
-          document.getElementById('div3').style.display='none';
-          document.getElementById('div4').style.display='block';
-}
-function myFunction4() {
-
-          document.getElementById('div4').style.display='none';
-          document.getElementById('div5').style.display='block';
-}
-
-function myFunction5() {
-
-          document.getElementById('div5').style.display='none';
-          document.getElementById('div6').style.display='block';
-}
-function myFunction6() {
-
-          document.getElementById('div6').style.display='none';
-          document.getElementById('div7').style.display='block';
-}
-function myFunction7() {
-
-          document.getElementById('div7').style.display='none';
-          document.getElementById('div8').style.display='block';
-}
+     
+        if(count==2)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/2.png').fadeIn(100);
+              $('#countButton').css({top: '38%', left: '10%'});
+              $("#aum").html("Click on <span class='red'>Make Payment</span> button.");
+              backcount =1;
+                 count=3;
+          });
+        }
+    }
 </script>
 </body>
 </html>
