@@ -15,18 +15,6 @@ body
   background-color: #EC2127;
   
 }
-.counter
-{
-	margin:0 auto;
-  width: 100%;
-float: left;
-	font-size:14px;
-	text-align:center;
-}
-.counter img
-{
-  width: 50px;
-}
 .wrapper
 {
   
@@ -353,9 +341,18 @@ h1{
     font-size: 20px;
     font-weight: bold;
     margin-top: 5px; 
+	margin-left: 5px; 
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
 }
-
+ul
+{
+	width: 90%;
+	margin-left: -15px;
+}
+ul li
+{
+	font-size:12px;
+}
 a{
     text-decoration: none;
     color: #4A4A4A !important;
