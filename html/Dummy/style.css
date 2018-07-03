@@ -24,10 +24,10 @@ body
 .container .button1
 {
       position: absolute;
-height: 8%;
-width: 40%;
-right: 25%;
-top: 45%;
+ height: 45px;
+    width: 50px;
+    right: 26%;
+    top: 44%;
 }
 .counter
 {
@@ -60,13 +60,13 @@ margin:0 auto;
 }
 #wrapper .btnPos
 {
-  width: 10%;
-  height:90%;
-  margin: 0 auto;
-  background: green;
-  position: fixed;
-top: 0%;
-left: 47%;
+  width: 80%;
+    height: 90%;
+    margin: 0 auto;
+    
+    position: absolute;
+    top: 0%;
+    left: 100px;
 }
 .text-div p
 {
@@ -120,10 +120,10 @@ left: 47%;
 .container .button1
 {
      position: absolute;
-    height: 7%;
-    width: 12%;
-    right: 9%;
-    top: 43%;
+   height: 45px;
+    width: 50px;
+    right: 26%;
+    top: 44%;
 }
  .container img
 {
