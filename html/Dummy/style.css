@@ -16,7 +16,7 @@ body
 }
 .container
 {
-	height:95vh !important;
+	height:90vh !important;
 	
 } 
 .counter
@@ -27,23 +27,19 @@ body
 }
 .text-div{
         width: 50%;
-    height: 50px;
+ 
     text-align: center;
     background-color: #e91e22;
     color: white;
-  top:20%;
+ float: left;
 margin:0 auto;
     position: relative;
 
 }
-.text-div p
-{
-	font-size:20px;
-	position:absolute;
-}
+
 .container img
 {
-	height:90%;
+	height:100%;
 	
 }
 .boxContainer
