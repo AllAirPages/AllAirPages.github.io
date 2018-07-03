@@ -92,6 +92,7 @@ left: 25%;
 	width:100% !important;
 	height:100vh !important;
   background: pink;
+  overflow: hidden;
 }
 .container
 {
