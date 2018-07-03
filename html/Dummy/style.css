@@ -16,8 +16,8 @@ body
 }
 .container
 {
-	height:90vh !important;
-	display: table;
+	height:80vh !important;
+	
 } 
 .counter
 {
@@ -34,6 +34,7 @@ body
 .text-div{
         width: 100%;
  font-size: 30px;
+ height: 20%;
     text-align: center;
     background-color: #e91e22;
     color: white;
@@ -42,9 +43,7 @@ margin:0 auto;
     position: relative;
 
 }
-.text-div p{
-  padding: 5px;
-}
+
 .container img
 {
 	height:100%;
@@ -79,7 +78,7 @@ margin:0 auto;
 }
 .container
 {
-	height:95vh !important;
+	height:80vh !important;
 
 } 
 .text-div{
