@@ -34,7 +34,7 @@ float: left;
 .text-div{
         width: 100%;
         font-size: 30px;
-min-height: 10%;
+min-height: 15%;
     float: left;
     text-align: center;
     background-color: #e91e22;
@@ -44,7 +44,10 @@ margin:0 auto;
     position: relative;
 
 }
-
+.text-div p
+{
+  padding: 10px;
+}
 .container img
 {
 	height:100%;
