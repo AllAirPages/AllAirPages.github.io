@@ -82,11 +82,12 @@ margin:0 auto;
 }
 .container
 {
-	height:80vh !important;
+	height:90vh !important;
 
 } 
 .text-div{
   margin: 0 auto;
+  height: 8vh;
 }
 .container
 {
