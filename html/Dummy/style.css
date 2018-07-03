@@ -42,7 +42,9 @@ margin:0 auto;
     position: relative;
 
 }
-
+.text-div p{
+  padding: 5px;
+}
 .container img
 {
 	height:100%;
