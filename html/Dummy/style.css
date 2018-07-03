@@ -26,7 +26,7 @@ body
 	text-align:center;
 }
 .text-div{
-        width: 50%;
+        width: 100%;
  
     text-align: center;
     background-color: #e91e22;
@@ -74,14 +74,16 @@ margin:0 auto;
 	height:95vh !important;
 
 } 
-
+.text-div{
+  margin: 0 auto;
+}
 .container
 {
 	text-align:center;
 }
  .container img
 {
-	height:95%;
+	height:100%;
 	
 }
 }
