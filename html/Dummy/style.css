@@ -23,11 +23,11 @@ body
 } 
 .container .button1
 {
-     position: absolute;
-    height: 7%;
-    width: 12%;
-   right: 41%;
-top: 50%;
+      position: absolute;
+height: 8%;
+width: 40%;
+right: 25%;
+top: 45%;
 }
 .counter
 {
@@ -57,6 +57,16 @@ min-height: 8%;
 margin:0 auto;
     position: relative;
 
+}
+#wrapper .btnPos
+{
+  width: 10%;
+  height:90%;
+  margin: 0 auto;
+  background: green;
+  position: fixed;
+top: 0%;
+left: 47%;
 }
 .text-div p
 {
