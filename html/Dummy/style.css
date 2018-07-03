@@ -34,7 +34,7 @@ float: left;
 .text-div{
         width: 100%;
         font-size: 30px;
-
+min-height: 10%;
     float: left;
     text-align: center;
     background-color: #e91e22;
