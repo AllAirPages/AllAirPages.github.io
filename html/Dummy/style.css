@@ -22,8 +22,14 @@ body
 .counter
 {
 	margin:0 auto;
+  width: 100%;
+
 	font-size:14px;
 	text-align:center;
+}
+.counter img
+{
+  width: 29px;
 }
 .text-div{
         width: 100%;
