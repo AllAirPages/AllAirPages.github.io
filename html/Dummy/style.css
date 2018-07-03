@@ -71,7 +71,7 @@ margin:0 auto;
 }
 }
 
-@media only screen and (min-width:481px) and (max-width: 1280px) {
+@media only screen and (min-width:481px) and (max-width: 1280px) and (orientation: portrait){
  	#wrapper{
 	
 	width:100% !important;
@@ -95,6 +95,33 @@ margin:0 auto;
 	
 }
 }
+
+@media only screen and (min-width:481px) and (max-width: 1280px) and (orientation: portrait){
+  #wrapper{
+  
+  width:100% !important;
+  height:100% !important;
+}
+.container
+{
+  height:80% !important;
+
+} 
+.text-div{
+  margin: 0 auto;
+  height: 15%;
+}
+.container
+{
+  text-align:center;
+}
+ .container img
+{
+  height:100%;
+  
+}
+}
+
 
 
 
