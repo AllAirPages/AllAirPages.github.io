@@ -26,6 +26,14 @@ body
   padding-bottom: 12px; 
   width:98%;
 }
+.counter 
+{
+  width: 100%;
+}
+.counter img 
+{
+  width: 50%;
+}
 .red
 {
   color: red;
