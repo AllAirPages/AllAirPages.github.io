@@ -117,13 +117,17 @@ left: 25%;
 {
 	text-align:center;
 }
+#wrapper .btnPos
+{
+    width:60%;
+}
 .container .button1
 {
       position: absolute;
 height:55px;
 width: 60px;
 right: 1%;
-top: 55%;
+top: 56%;
 }
  .container img
 {
