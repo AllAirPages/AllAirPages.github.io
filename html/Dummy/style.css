@@ -9,7 +9,7 @@ body
   height:100%;
 }
 #wrapper{
-	width:600px;
+	width:100vh;
 	margin:0 auto;
 	text-align:center;
   position: relative;
@@ -60,13 +60,13 @@ margin:0 auto;
 }
 #wrapper .btnPos
 {
-  width: 178px;
+  width: 52%;
 height: 90%;
 margin: 0 auto;
-background-color: green;
+background-color: transparent;
 position: absolute;
 top: 0%;
-left: 213px;
+left: 25%;
 }
 .text-div p
 {
