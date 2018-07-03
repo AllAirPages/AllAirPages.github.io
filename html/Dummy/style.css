@@ -84,25 +84,14 @@ left: 25%;
 
 
 }
-@media only screen and (max-width: 480px) {
 
-	#wrapper{
-	background-color:brown;
-	width:100vh !important;
-	height:100vh !important;
-}
- .container img
-{
-	height:90%;
-	
-}
-}
 
-@media only screen and (min-width:481px) and (max-width: 1280px) and (orientation: portrait){
+@media only screen and (min-width:320px) and (max-width: 1280px) and (orientation: portrait){
  	#wrapper{
 	
 	width:100% !important;
 	height:100vh !important;
+  background: pink;
 }
 .container
 {
@@ -124,8 +113,8 @@ left: 25%;
 .container .button1
 {
       position: absolute;
-height:55px;
-width: 60px;
+height:95px;
+width: 100px;
 right: 1%;
 top: 56%;
 }
