@@ -17,7 +17,7 @@ body
 .container
 {
 	height:90vh !important;
-	
+	display: table;
 } 
 .counter
 {
