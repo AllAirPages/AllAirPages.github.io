@@ -26,8 +26,8 @@ body
      position: absolute;
 height: 45px;
 width: 50px;
-left: 78%;
-top: 57%;
+right: 1%;
+top: 56%;
 }
 .counter
 {
@@ -39,7 +39,7 @@ float: left;
 }
 .counter img
 {
-  width: 100px;
+  width: 50px;
 }
 #div2, #div3, #div4, #div5, #div6, #div7, #div8
 {
@@ -68,10 +68,10 @@ position: absolute;
 top: 0%;
 left: 25%;
 }
-/*.text-div p
+.text-div p
 {
   padding: 10px;
-}*/
+}
 .container img
 {
 	height:100%;
@@ -85,17 +85,7 @@ left: 25%;
 
 }
 
-.back-btn-div{
-  width: 10%;
-  float: left;
-}
-.back-btn{
-  width: 100%; margin-top: 0px; cursor: pointer;
-}
-.bottom-text-div{
-  width: 80%;
-  float: left;
-}
+
 @media only screen and (min-width:320px) and (max-width: 1280px) and (orientation: portrait){
  	#wrapper{
 	
