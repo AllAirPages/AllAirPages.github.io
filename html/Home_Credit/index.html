@@ -272,11 +272,13 @@ var count = 2;
      homebuttton.onclick = function()
       {
 
-     
+       $('#contentDiv').hide();
+  $('#introDiv').show();
         
         
             $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/1.png').fadeIn(100);
+               $('#countButton').show();
               $('#countButton').css({top: '57%', left: '78%'});
               $('#bckbtn').css({visibility:'hidden'});
               $("#aum").html(" <span class='red'>Tap on CASH MANAGEMENT SERVICES.</span>");
