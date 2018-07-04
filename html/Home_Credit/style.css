@@ -25,6 +25,14 @@ body
   text-align: center;
 	
 } 
+.logo_desc {
+    font-size: 24px;
+    color: #ffffff;
+    background: #e91e22;
+    text-align: center;
+    line-height: 44px;
+    font-weight: bold;
+}
 .container .button1
 {
      position: absolute;
@@ -59,7 +67,7 @@ float: left;
 min-height: 8%;
     float: left;
     text-align: center;
-    background-color: #e91e22;
+    background-color: #323232;
     color: white; 
 
 margin:0 auto;
