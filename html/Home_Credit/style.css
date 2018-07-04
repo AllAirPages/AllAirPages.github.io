@@ -69,10 +69,11 @@ float: left;
     left: 25%;
 }
 .btnstyle{
-      width: 100px;
+      width: 150px;
     background-color: #e50001;
     border: none;
-    padding: 7px;
+    padding: 12px;
+    font-size: 16px
     color: white;
     font-weight: 600;
     font-family: sans-serif;
