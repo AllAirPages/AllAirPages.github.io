@@ -28,9 +28,10 @@ body
 .logo_desc {
     font-size: 24px;
     color: #ffffff;
+    padding: 2px;
     background: #e91e22;
     text-align: center;
-    line-height: 44px;
+    line-height: 26px;
     font-weight: bold;
 }
 .container .button1
@@ -64,11 +65,12 @@ float: left;
 .text-div{
         width: 100%;
         font-size: 30px;
-min-height: 8%;
+min-height: 6%;
     float: left;
     text-align: center;
-    background-color: #323232;
-    color: white; 
+    background-color: transparent;
+    color: #e91e22;
+    font-weight: bold; 
 
 margin:0 auto;
     position: relative;
@@ -127,7 +129,7 @@ left: 25%;
 } 
 .text-div{
   margin: 0 auto;
-  height: 8vh;
+  height: 6vh;
 }
 .container
 {
@@ -164,9 +166,13 @@ top: 58%;
   width:100%;
 
 } 
+.logo_desc
+{
+  font-size: 18px;
+}
 .text-div{
   margin: 0 auto;
-  height: 8%;
+  height: 6%;
 }
 .container
 {
