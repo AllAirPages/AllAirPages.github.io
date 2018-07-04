@@ -20,6 +20,7 @@ body
 	height:90vh !important;
   position: relative;
   top:6px;
+  display: table;
 	
 } 
 .container .button1
@@ -39,7 +40,8 @@ float: left;
 	font-size:14px;
 	text-align:center;
       bottom: 0;
-    position: absolute;
+    position: relative;
+        margin-top: 10px;
 }
 .counter img
 {
