@@ -73,8 +73,8 @@ float: left;
     background-color: #e50001;
     border: none;
     padding: 12px;
-    font-size: 16px
-    color: white;
+    font-size: 16px;
+    color: #ffffff;
     font-weight: 600;
     font-family: sans-serif;
     border-bottom-left-radius: 5px;
@@ -156,6 +156,11 @@ left: 25%;
   background: white;
   overflow: hidden;
 }
+.btnstyle{
+   width:306px;
+   padding: 32px;
+   font-size: 38px;
+  }
 .container
 {
 	height:87vh !important;
@@ -205,6 +210,12 @@ top: 58%;
   width:100%;
 
 } 
+
+.btnstyle{
+   width:306px;
+   padding: 32px;
+   font-size: 38px;
+  }
 .logo_desc
 {
      font-size: 44px;
