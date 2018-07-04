@@ -17,7 +17,7 @@ body
 }
 .container
 {
-	height:88vh !important;
+	height:86vh !important;
   position: relative;
   top:6px;
   width: 100%;
@@ -64,7 +64,7 @@ float: left;
 }
 .text-div{
         width: 100%;
-        font-size: 30px;
+        font-size: 40px;
 min-height: 6%;
     float: left;
     text-align: center;
