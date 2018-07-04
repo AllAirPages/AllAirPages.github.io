@@ -295,19 +295,18 @@ var count = 2;
 
      homebuttton.onclick = function()
       {
-
-     
-        
-        
-            $("#mainImg").fadeOut(10, function () {
+              $('#contentDiv').hide();
+             $('#introDiv').show();
+              $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/1.png').fadeIn(100);
-               $('#countButton').css({top: '59%', left: '80%'});
-              $('#bckbtn').css({visibility:'hidden'});
-              $("#aum").html(" <span class='red'>Tap on CASH MANAGEMENT SERVICES.</span>");
-              
-              count=2;
-          });
-        }
+              $('#countButton').show();
+              $('#countButton').css({top: '62%', left: '20%'});
+              $('#bckbtn').css({visibility:'visible'});
+              $("#aum").html("<span class='red'>Select Hero_FinCorp from the list.</span>");
+              backcount =1;
+                 count=3;
+        });
+      }
 </script>
 </body>
 </html>
