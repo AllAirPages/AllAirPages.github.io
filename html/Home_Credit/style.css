@@ -8,6 +8,10 @@ body
   width:100%;
   height:100%;
 }
+#countButton
+{
+  display: block;
+}
 .wrapper{
 	width:100vh;
 	margin:0 auto;
