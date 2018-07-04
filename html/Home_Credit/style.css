@@ -154,7 +154,8 @@ top: 58%;
 }
 .logo_desc
 {
-  font-size: 24px;
+      font-size: 30px;
+    padding: 20px;
 }
 }
 
@@ -172,7 +173,8 @@ top: 58%;
 } 
 .logo_desc
 {
-  font-size: 24px;
+     font-size: 30px;
+    padding: 20px;
 }
 .text-div{
   margin: 0 auto;
