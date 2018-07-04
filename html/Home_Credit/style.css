@@ -28,7 +28,7 @@ body
 .logo_desc {
     font-size: 24px;
     color: #ffffff;
-    padding: 2px;
+    padding: 8px;
     background: #e91e22;
     text-align: center;
     line-height: 26px;
@@ -64,7 +64,7 @@ float: left;
 }
 .text-div{
         width: 100%;
-        font-size: 30px;
+        font-size: 20px;
 min-height: 6%;
     float: left;
     text-align: center;
@@ -152,6 +152,10 @@ top: 58%;
 	height:100%;
 	
 }
+.logo_desc
+{
+  font-size: 24px;
+}
 }
 
 @media only screen and (min-width:481px) and (max-width: 1280px) and (orientation: landscape){
@@ -168,7 +172,7 @@ top: 58%;
 } 
 .logo_desc
 {
-  font-size: 18px;
+  font-size: 24px;
 }
 .text-div{
   margin: 0 auto;
