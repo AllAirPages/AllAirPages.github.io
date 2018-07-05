@@ -18,7 +18,7 @@ body
 .container
 {
    
-       height: 86vh !important;
+       height: 78vh !important;
     position: relative;
     top: 6px;
     width: 100%;
@@ -206,7 +206,7 @@ top: 58%;
 }
 .container
 {
-  height:100% !important;
+  height:78vh !important;
   width:100%;
 
 } 
