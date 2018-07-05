@@ -48,7 +48,7 @@ body
 height: 45px;
 width: 50px;
 left: 78%;
-top: 59%;
+top: 24%;
 }
 .counter
 {
@@ -116,8 +116,8 @@ margin:0 auto;
 }
 .wrapper .btnPos
 {
-  width: 50%;
-height: 90%;
+  width: 46%;
+height: 95%;
 margin: 0 auto;
 background-color: transparent;
 position: absolute;
@@ -188,7 +188,7 @@ left: 25%;
 height:95px;
 width: 100px;
 right: 2%;
-top: 58%;
+top: 24%;
 }
  .container img
 {
