@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cash Management Services-Home Credit</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	
+		
+		
+
+
+		<!-- <div class="image-div">
+			<div class="img-div">
+				<img src="images/1.jpg">	
+
+			</div> -->
+
+
+      <div class="wrapper" >
+      <div class="logo_desc">Cash Management Services-Home Credit</div>
+      <div class="text-div">
+            <div class="back-btn-div"><img class="back-btn" id="bckbtn" value="backcount" src="images/back.png" style="visibility: hidden;"></div>
+            <div class="bottom-text-div"><p class="text-style" id="aum"><span>Tap on CASH MANAGEMENT SERVICES.</span></p></div>
+            <div class="back-btn-div"><img class="back-btn" id="homebtn" src="images/home.png"></div>
+        </div>
+      <div class="container" id="div1">
+      <img src="images/1.png" id="mainImg">
+        <div class="btnPos"> <img src="images/btn.gif" class="button1" value="Count" id="countButton"></div>
+      
+    
+    </div>
+            <div class="counter">   
+  <img src="https://www.reliablecounter.com/count.php?page=https://allairpages.github.io/html/Home_Credit/index.html&digit=style/plain/6/&reloads=0" alt="simple html hit counter" title="simple html hit counter" border="0">
+</div>  
+</div>
+
+
+
+	
+	
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+
+
+var count = 2;
+	  var backcount=1;
+    var homebuttton;
+      var button = document.getElementById("countButton");
+       var backbutton = document.getElementById("bckbtn");
+
+      var homebuttton = document.getElementById("homebtn");
+      button.onclick = function()
+      {
+
+     
+        if(count==2)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/2.png').fadeIn(100);
+              $('#countButton').css({top: '41%', left: '20%'});
+              $('#bckbtn').css({visibility:'visible'});
+              $("#aum").html("<span class='red'>Select Home Credit from the list.</span>");
+              backcount =1;
+                 count=3;
+          });
+        }
+        else if(count==3)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/3.png').fadeIn(100);
+              $('#countButton').css({top: '63%', left: '45%'});
+              $("#aum").html("<span class='red'>Enter Loan Account Number and Tap on GET DETAILS.</span>");
+              backcount =2;
+                 count=4;
+          });
+        }
+        else if(count==4)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/4.png').fadeIn(100);
+              $('#countButton').css({top: '53%', left: '45%'});
+              $("#aum").html("<span class='red'>Enter Amount and Tap on SUBMIT.</span> ");
+              backcount =3;
+                 count=5;
+          });
+        }
+        else if(count==5)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/5.png').fadeIn(100);
+              $('#countButton').css({top: '98%', left: '46%'});
+              $("#aum").html(" <span class='red'>Tap on EDIT DETAILS if require. Otherwise Tap on CONFIRM.</span>");
+              backcount =4;
+                 count=6;
+          });
+        }
+         else if(count==6)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/6.png').fadeIn(100);
+              $('#countButton').css({top: '62%', left: '64%'});
+              $("#aum").html("<span class='red'>Enter Depositor's mobile number and Tap on Proceed.</span>");
+              backcount =5;
+                 count=7;
+          });
+
+        }
+         else if(count==7)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/7.png').fadeIn(100);
+              $('#countButton').css({top: '75%', left: '65%'});
+              $("#aum").html("<span class='red'>Ask Customer to enter OTP & enter Retailer mPIN. Tap on Verify.</span> ");
+              backcount =6;
+                 count=8;
+          });
+        }
+
+         else if(count==8)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/8.png').fadeIn(100);
+             $('#countButton').css({top: '58%', left: '80%'});
+              $("#aum").html("<span class='red'>Transaction completed successfully.</span>");
+              backcount =7;
+                 count=9;
+          });
+        }
+		 else if(count==9)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/9.png').fadeIn(100);
+				$('#countButton').css({top: '58%', left: '80%'});
+              $("#aum").html("<span class='red'>Transaction completed successfully.</span>");
+              backcount =8;
+                 count=10;
+          });
+        }
+		else if(count==10)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/10.png').fadeIn(100);
+				$('#countButton').css({top: '58%', left: '80%'});
+              $("#aum").html("<span class='red'>Transaction completed successfully.</span>");
+              backcount =9;
+                 count=11;
+          });
+        }
+			else if(count==11)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/11.png').fadeIn(100);
+				$('#countButton').css({top: '58%', left: '80%'});
+              $("#aum").html("<span class='red'>Transaction completed successfully.</span>");
+              backcount =10;
+                 count=12;
+          });
+        }
+		else if(count==12)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/12.png').fadeIn(100);
+				$('#countButton').css({top: '58%', left: '80%'});
+              $("#aum").html("<span class='red'>Transaction completed successfully.</span>");
+              backcount =11;
+                 count=13;
+          });
+        }
+		else if(count==13)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/13.png').fadeIn(100);
+				$('#countButton').css({top: '58%', left: '80%'});
+              $("#aum").html("<span class='red'>Transaction completed successfully.</span>");
+              backcount =12;
+                 count=14;
+          });
+        }
+			else if(count==14)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/14.png').fadeIn(100);
+				$('#countButton').hide();
+              $("#aum").html("<span class='red'>Transaction completed successfully.</span>");
+              backcount =13;
+                 count=1;
+          });
+        }
+         else if(count==1)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/1.png').fadeIn(100);
+              $('#countButton').css({top: '58%', left: '80%'});
+               $('#bckbtn').css({visibility:'hidden'});
+              $("#aum").html(" <span class='red'>Tap on CASH MANAGEMENT SERVICES.</span>");
+              backcount =7;
+                 count=2;
+          });
+        }
+    }
+
+
+
+
+     backbutton.onclick = function()
+      {
+
+     
+        if(backcount==1)
+        {
+            $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/1.png').fadeIn(100);
+             $('#countButton').css({top: '58%', left: '80%'});
+              $('#bckbtn').css({visibility:'hidden'});
+              $("#aum").html(" <span class='red'>Tap on CASH MANAGEMENT SERVICES.</span>");
+              backcount =7;
+              count=2;
+          });
+        }
+        else if(backcount==2)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/2.png').fadeIn(100);
+              $('#countButton').css({top: '41%', left: '20%'});
+              $('#bckbtn').css({visibility:'visible'});
+               $("#aum").html("<span class='red'>Select Home Credit from the list.</span>");
+              backcount =1;
+                 count=3;
+             
+               
+          });
+        }
+        else if(backcount==3)
+        {
+              $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/3.png').fadeIn(100);
+              $('#countButton').css({top: '63%', left: '45%'});
+              $('#bckbtn').css({visibility:'visible'});
+               $("#aum").html("<span class='red'>Enter Loan Account Number and Tap on GET DETAILS.</span>");
+              backcount =2;
+                 count=4;
+          });
+        }
+        else if(backcount==4)
+        {
+            $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/4.png').fadeIn(100);
+               $('#countButton').css({top: '53%', left: '45%'});
+              $('#bckbtn').css({visibility:'visible'});
+             $("#aum").html("<span class='red'>Enter Amount and Tap on SUBMIT.</span> ");
+              backcount =3;
+                 count=5;
+          });
+        }
+         else if(backcount==5)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/5.png').fadeIn(100);
+               $('#countButton').css({top: '98%', left: '46%'});
+              $('#bckbtn').css({visibility:'visible'});
+               $("#aum").html(" <span class='red'>Tap on EDIT DETAILS if require. Otherwise Tap on CONFIRM.</span>");
+              backcount =4;
+                 count=6;
+          });
+
+        }
+         else if(backcount==6)
+        {
+              $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/6.png').fadeIn(100);
+              $('#countButton').css({top: '62%', left: '64%'});
+              $('#bckbtn').css({visibility:'visible'});
+              $("#aum").html("<span class='red'>Enter Depositor's mobile number and Tap on Proceed.</span>");
+              backcount =5;
+                 count=7;
+          });
+        }
+
+         else if(backcount==7)
+        {
+            $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/7.png').fadeIn(100);
+              $('#countButton').css({top: '75%', left: '65%'});
+              
+              $("#aum").html("<span class='red'>Ask Customer to enter OTP & enter Retailer mPIN. Tap on Verify.</span> ");
+              backcount =6;
+                 count=8;
+          });
+        }
+         else if(backcount==8)
+        {
+              $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/1.png').fadeIn(100);
+              $('#countButton').css({top: '104%', left: '49%'});
+
+               $("#aum").html("<span class='red'>Transaction completed successfully.</span>");
+              backcount =7;
+                 count=1;
+          });
+        }
+    }
+
+
+     homebuttton.onclick = function()
+      {
+
+       $('#contentDiv').hide();
+  $('#introDiv').show();
+        
+        
+            $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/1.png').fadeIn(100);
+               $('#countButton').show();
+              $('#countButton').css({top: '57%', left: '78%'});
+              $('#bckbtn').css({visibility:'hidden'});
+              $("#aum").html(" <span class='red'>Tap on CASH MANAGEMENT SERVICES.</span>");
+              
+              count=2;
+          });
+        }
+</script>
+</body>
+</html>
