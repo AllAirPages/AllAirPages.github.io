@@ -108,6 +108,7 @@ min-height: 6%;
     text-align: center;
     background-color: transparent;
     color: #e91e22;
+	display:table;
     font-weight: bold; 
 
 margin:0 auto;
