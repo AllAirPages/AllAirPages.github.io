@@ -20,7 +20,7 @@ body
    
        height: 78vh !important;
     position: relative;
-    top: 6px;
+    
     width: 100%;
     float: left;
     text-align: center 
@@ -160,7 +160,7 @@ left: 25%;
 }
 .container
 {
-    height:80vh !important;
+    height:78vh !important;
 
 } 
 .text-div{
