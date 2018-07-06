@@ -102,7 +102,7 @@ float: left;
 }
 .text-div{
         width: 100%;
-       
+       font-size:30px;
 min-height: 6%;
     float: left;
     text-align: center;
@@ -167,12 +167,13 @@ left: 25%;
   }
 .container
 {
-	height:86vh !important;
+	height:80vh !important;
 
 } 
 .text-div{
   margin: 0 auto;
   height: 6vh;
+    font-size:42px;
 }
 .container
 {
