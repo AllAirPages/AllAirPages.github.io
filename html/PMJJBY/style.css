@@ -135,7 +135,10 @@ left: 25%;
 
 
 }
-
+.dummyimg
+{
+	height:auto;
+}
 .back-btn-div{
   width: 10%;
   float: left;
@@ -214,6 +217,10 @@ top: 32%;
     outline: none;
     font-size: 38px;
 }
+.dummyimg
+{
+	height:88vh;
+}
 }
 
 @media only screen and (min-width:481px) and (max-width: 1280px) and (orientation: landscape){
@@ -240,6 +247,10 @@ top: 32%;
 .container
 {
   text-align:center;
+}
+.dummyimg
+{
+	height:auto;
 }
  .container img
 {
