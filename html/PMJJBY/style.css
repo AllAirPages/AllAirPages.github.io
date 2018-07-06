@@ -156,6 +156,11 @@ left: 25%;
   background: white;
   overflow: hidden;
 }
+.counter{
+	position:absolute;
+	bottom:0;
+	top:none;
+}
 .container
 {
 	height:74vh !important;
