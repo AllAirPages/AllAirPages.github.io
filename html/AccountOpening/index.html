@@ -266,10 +266,11 @@ var count = 2;
         {
              $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/22.png').fadeIn(100);
-			$('#countButton').hide();
+			  $('#countButton').css({top: '64%', left: '19%',width:'320px'});
+			$('#countButton').attr('src','images/assessment.png');
               $("#aum").html("<span class='red'>Congratulation. Account Opening process has been completed.</span>");
-              backcount =20;
-                 count=22;
+              backcount =21;
+                 count=23;
           });
         }
 		
@@ -409,7 +410,7 @@ var count = 2;
                $('#countButton').show();
 			   $('#countButton').css({top: '22%', left: '73%'});
               $('#bckbtn').css({visibility:'hidden'});
-              $("#aum").html(" <span class='red'>Tap on CASH MANAGEMENT SERVICES.</span>");
+              $("#aum").html(" <span class='red'>Tap OPEN BANK ACCOUNT under Bank Section.</span>");
               
               count=2;
           });
