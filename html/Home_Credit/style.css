@@ -152,6 +152,10 @@ left: 25%;
   width: 80%;
   float: left;
 }
+.dummyimg
+{
+	height:auto;
+}
 @media only screen and (min-width:320px) and (max-width: 1280px) and (orientation: portrait){
  	.wrapper{
 	
@@ -159,6 +163,10 @@ left: 25%;
 	height:100vh !important;
   background: white;
   overflow: hidden;
+}
+.dummyimg
+{
+	height:90vh;
 }
 .btnstyle{
    width:306px;
@@ -219,7 +227,10 @@ top: 58%;
   width:100%;
 
 } 
-
+.dummyimg
+{
+	height:auto;
+}
 .btnstyle{
    width:306px;
    padding: 32px;

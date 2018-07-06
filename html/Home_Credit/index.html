@@ -25,7 +25,7 @@
             <div class="back-btn-div"><img class="back-btn" id="homebtn" src="images/home.png"></div>
         </div>
 			 --><div class="container" id="div1">
-			<img src="images/intro.png" style="height:90vh" >
+			<img src="images/intro.png" class="dummyimg">
 				<div class="btnstart">
        <button class="btnstyle" id="introbtn">Getting start</button>
      </div>
@@ -135,10 +135,11 @@ var count = 2;
         }
          else if(count==7)
         {
-             $("#mainImg").fadeOut(10, function () {
+               $('#countButton').show();
+			 $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/7.png').fadeIn(100);
               $('#countButton').css({top: '75%', left: '65%'});
-			   $('#countButton').show();
+			 
               $("#aum").html("<span class='red'>Ask Customer to enter OTP & enter Retailer mPIN. Tap on Verify.</span> ");
               backcount =6;
                  count=8;
