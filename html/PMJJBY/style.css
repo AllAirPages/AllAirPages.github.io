@@ -97,7 +97,7 @@ float: left;
 }
 .text-div{
         width: 100%;
-        
+        font-size:30px;
 min-height: 6%;
     float: left;
     text-align: center;
@@ -146,6 +146,7 @@ left: 25%;
 .bottom-text-div{
   width: 80%;
   float: left;
+
 }
 @media only screen and (min-width:320px) and (max-width: 1280px) and (orientation: portrait){
  	.wrapper{
@@ -157,11 +158,12 @@ left: 25%;
 }
 .container
 {
-	height:72vh !important;
+	height:74vh !important;
 
 } 
 .text-div{
   margin: 0 auto;
+    font-size:44px;
   height: 6vh;
 }
 .container
