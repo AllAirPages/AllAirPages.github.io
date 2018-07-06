@@ -116,7 +116,7 @@ margin:0 auto;
 }
 .wrapper .btnPos
 {
-  width: 50%;
+  width: 47%;
 height: 90%;
 margin: 0 auto;
 background-color: transparent;
@@ -196,7 +196,7 @@ left: 25%;
       position: absolute;
 height:95px;
 width: 100px;
-right: 2%;
+left:78%;
 top: 58%;
 }
  .container img
