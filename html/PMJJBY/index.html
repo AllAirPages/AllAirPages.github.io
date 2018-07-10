@@ -25,7 +25,7 @@
             <div class="bottom-text-div"><p class="text-style" id="aum"><span>Tap on CASH MANAGEMENT SERVICES.</span></p></div>
             <div class="back-btn-div"><img class="back-btn" id="homebtn" src="images/home.png"></div>
         </div>
-			 --><div class="container" id="div1">
+			 --><div class="container1" id="div1">
 			<img src="images/pmjby.png" >
 				<div class="btnstart">
        <button class="btnstyle" id="introbtn">Next</button>
@@ -36,17 +36,54 @@
 					 	
 </div>
 
-<div id="PointsToRemember">
+<div id="PointsToRemember1">
       <div class="logo_desc">Pradhan Mantri Jeevan Jyoti Beema Yojana</div>
       <!-- <div class="text-div">
             <div class="back-btn-div"><img class="back-btn" id="bckbtn" value="backcount" src="images/back.png" style="visibility: hidden;"></div>
             <div class="bottom-text-div"><p class="text-style" id="aum"><span>Tap on CASH MANAGEMENT SERVICES.</span></p></div>
             <div class="back-btn-div"><img class="back-btn" id="homebtn" src="images/home.png"></div>
         </div>
-			 --><div class="container">
-			<img src="images/pointoremb.png" >
-				<div class="btnstart" style="top:81%;">
-       <button class="btnstyle" id="PointsRemBtn">Getting start</button>
+			 --><div class="container1" >
+			<img src="images/pointoremb1.png" >
+				<div class="btnstart" style="top:82%; padding: 12px;">
+       <button class="btnstyle" id="PointsRemBtn">Read More</button>
+        
+     </div>
+			
+		
+		</div>
+					 	
+</div>
+<div id="PointsToRemember2">
+      <div class="logo_desc">Pradhan Mantri Jeevan Jyoti Beema Yojana</div>
+      <!-- <div class="text-div">
+            <div class="back-btn-div"><img class="back-btn" id="bckbtn" value="backcount" src="images/back.png" style="visibility: hidden;"></div>
+            <div class="bottom-text-div"><p class="text-style" id="aum"><span>Tap on CASH MANAGEMENT SERVICES.</span></p></div>
+            <div class="back-btn-div"><img class="back-btn" id="homebtn" src="images/home.png"></div>
+        </div>
+			 --><div class="container1">
+			<img src="images/pointoremb2.png" >
+				<div class="btnstart" style="top:82%; padding: 12px;">
+       <button class="btnstyle" id="PointsRemBtn2">Read More</button>
+        
+     </div>
+			
+		
+		</div>
+					 	
+</div>
+<div id="PointsToRemember3">
+      <div class="logo_desc">Pradhan Mantri Jeevan Jyoti Beema Yojana</div>
+      <!-- <div class="text-div">
+            <div class="back-btn-div"><img class="back-btn" id="bckbtn" value="backcount" src="images/back.png" style="visibility: hidden;"></div>
+            <div class="bottom-text-div"><p class="text-style" id="aum"><span>Tap on CASH MANAGEMENT SERVICES.</span></p></div>
+            <div class="back-btn-div"><img class="back-btn" id="homebtn" src="images/home.png"></div>
+        </div>
+			 --><div class="container1"> 
+			<img src="images/pointoremb3.png" >
+				<div class="btnstart" style="top:80%; padding: 12px;">
+       <button class="btnstyle" style="width:auto;" id="PointsRemBtn3">Getting Started</button>
+        
      </div>
 			
 		
@@ -64,13 +101,14 @@
       <div class="container">
       <img src="images/1.png" id="mainImg">
         <div class="btnPos"> <img src="images/btn.gif" class="button1" value="Count" id="countButton"></div>
-      
-    
+       <button class="certificationbtn" style="display:none; top: 64%;left: 40%; background-color: gray;"   id="FAQ">FAQ's</button>
+     <button class="certificationbtn" style="display:none;"  id="certification">Certification</button>
+    </div>
     </div>
             <div class="counter">   
   <img src="https://www.reliablecounter.com/count.php?page=https://allairpages.github.io/html/PMJJBY/index.html8801384&digit=style/plain/6/&reloads=0" alt="" title="" border="0">
 </div>  
-</div>
+
 </div>
 
 
@@ -84,14 +122,33 @@
 
 $('#introbtn').click(function()
 {
-  $('#PointsToRemember').show();
+  $('#PointsToRemember1').show();
   $('#introDiv').hide();
 });
 
 $('#PointsRemBtn').click(function()
 {
+  $('#PointsToRemember2').show();
+  $('#PointsToRemember1').hide();
+});
+$('#PointsRemBtn2').click(function()
+{
+  $('#PointsToRemember3').show();
+  $('#PointsToRemember2').hide();
+});
+$('#PointsRemBtn3').click(function()
+{
   $('#contentDiv').show();
-  $('#PointsToRemember').hide();
+  $('#PointsToRemember3').hide();
+});
+$('#certification').click(function()
+{
+	window.location.href = "https://www.surveymonkey.com/r/WBMZMQ2";
+});
+
+$('#FAQ').click(function()
+{
+	window.location = "pdf/FAQ.pdf";
 });
 
 var count = 2;
@@ -141,7 +198,7 @@ var count = 2;
              $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/5.png').fadeIn(100);
               $('#countButton').css({top: '89%', left: '46%'});
-              $("#aum").html(" <span class='red'>If nominee is miner please enter guardian details here, Tap on Proceed.</span>");
+              $("#aum").html(" <span class='red'>If nominee is minor please enter guardian details here, Tap on Proceed.</span>");
               backcount =4;
                  count=6;
           });
@@ -151,7 +208,7 @@ var count = 2;
              $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/6.png').fadeIn(100);
               $('#countButton').css({top: '83%', left: '42%'});
-              $("#aum").html("<span class='red' style='font-size:18px;'>Ask customer to read the declaration , terms and condition and also tell him about auto debit agreement for next year renewal of policy, as customer to tick all and take biometric authentication to complete the process.</span>");
+              $("#aum").html("<span class='red'>Ask customer to read the declaration , terms and condition and also tell him about auto debit agreement for next year renewal of policy, as customer to tick all and take biometric authentication to complete the process.</span>");
               backcount =5;
                  count=7;
           });
@@ -184,7 +241,8 @@ var count = 2;
              $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/9.png').fadeIn(100);
 			  $('#countButton').hide();
-              
+               $('#certification').show();
+               $('#FAQ').show();
               $("#aum").html("<span class='red'>And policy will be issued and Policy link will be sent to customer mobile number .</span>");
               backcount =8;
                  count=1;
@@ -198,6 +256,9 @@ var count = 2;
               $(this).attr('src', 'images/1.png').fadeIn(100);
               $('#countButton').css({top: '32%', left: '80%'});
                $('#bckbtn').css({visibility:'hidden'});
+                  $('#certification').hide();
+                   $('#FAQ').hide();
+              
               $("#aum").html(" <span class='red'>Login to the Mitra App and Bank Section, Tap on Pradhan Mantri Jeevan Jyoti Beema Yojana (PMJJBY).</span>");
               backcount =7;
                  count=2;
@@ -218,7 +279,7 @@ var count = 2;
               $(this).attr('src', 'images/1.png').fadeIn(100);
              $('#countButton').css({top: '31%', left: '80%'});
               $('#bckbtn').css({visibility:'hidden'});
-              $("#aum").html(" <span class='red'>Tap on CASH MANAGEMENT SERVICES.</span>");
+              $("#aum").html(" <span class='red'>Login to the Mitra App and Bank Section, Tap on Pradhan Mantri Jeevan Jyoti Beema Yojana (PMJJBY).</span>");
               backcount =7;
               count=2;
           });
@@ -229,7 +290,7 @@ var count = 2;
               $(this).attr('src', 'images/2.png').fadeIn(100);
               $('#countButton').css({top: '33%', left: '85%'});
               $('#bckbtn').css({visibility:'visible'});
-               $("#aum").html("<span class='red'>Select Home Credit from the list.</span>");
+                 $("#aum").html("<span class='red'>Enter Airtel Payments Bank Customer’s Account linked Mobile No , Ask Customer Check the declaration and Tap on Go.</span>");
               backcount =1;
                  count=3;
              
@@ -242,7 +303,7 @@ var count = 2;
               $(this).attr('src', 'images/3.png').fadeIn(100);
              $('#countButton').css({top: '60%', left: '75%'});
               $('#bckbtn').css({visibility:'visible'});
-               $("#aum").html("<span class='red'>Enter Loan Account Number and Tap on GET DETAILS.</span>");
+                        $("#aum").html("<span class='red'>Ask customer to provide Verification code, enter it here and Tap on Verify.</span>");
               backcount =2;
                  count=4;
           });
@@ -253,7 +314,7 @@ var count = 2;
               $(this).attr('src', 'images/4.png').fadeIn(100);
                $('#countButton').css({top: '75%', left: '45%'});
               $('#bckbtn').css({visibility:'visible'});
-             $("#aum").html("<span class='red'>Enter Amount and Tap on SUBMIT.</span> ");
+             $("#aum").html("<span class='red'>Customer details appear from airtel payments bank system, enter nominee details and enter address if address is different.</span> ");
               backcount =3;
                  count=5;
           });
@@ -264,7 +325,7 @@ var count = 2;
               $(this).attr('src', 'images/5.png').fadeIn(100);
                 $('#countButton').css({top: '89%', left: '46%'});
               $('#bckbtn').css({visibility:'visible'});
-               $("#aum").html(" <span class='red'>Tap on EDIT DETAILS if require. Otherwise Tap on CONFIRM.</span>");
+               $("#aum").html(" <span class='red'>If nominee is minor please enter guardian details here, Tap on Proceed.</span>");
               backcount =4;
                  count=6;
           });
@@ -276,7 +337,7 @@ var count = 2;
               $(this).attr('src', 'images/6.png').fadeIn(100);
                 $('#countButton').css({top: '83%', left: '42%'});
               $('#bckbtn').css({visibility:'visible'});
-              $("#aum").html("<span class='red'>Enter Depositor's mobile number and Tap on Proceed.</span>");
+              $("#aum").html("<span class='red'>Ask customer to read the declaration , terms and condition and also tell him about auto debit agreement for next year renewal of policy, as customer to tick all and take biometric authentication to complete the process.</span>");
               backcount =5;
                  count=7;
           });
@@ -288,7 +349,7 @@ var count = 2;
               $(this).attr('src', 'images/7.png').fadeIn(100);
             $('#countButton').css({top: '55%', left: '80%'});
               
-              $("#aum").html("<span class='red'>Ask Customer to enter OTP & enter Retailer mPIN. Tap on Verify.</span> ");
+            $("#aum").html("<span class='red'>Enter retailers' mPIN and Tap on Done.</span> ");
               backcount =6;
                  count=8;
           });
@@ -296,6 +357,8 @@ var count = 2;
          else if(backcount==8)
         {
         	$('#countButton').show();
+        	$('#certification').hide();
+        	$('#FAQ').hide();
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/8.png').fadeIn(100);
                $('#countButton').css({top: '90%', left: '45%'});
@@ -312,7 +375,7 @@ var count = 2;
              $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/9.png').fadeIn(100);
              $('#countButton').css({top: '90%', left: '45%'});
-              $("#aum").html("<span class='red'>Transaction added images completed successfully.</span>");
+             $("#aum").html("<span class='red'>Transaction has been completed successfully.</span>");
               backcount =8;
                  count=10;
           });
@@ -324,6 +387,8 @@ var count = 2;
      homebuttton.onclick = function()
       {
               $('#contentDiv').hide();
+               $('#certification').hide();
+               $('#FAQ').hide();
               $('#introDiv').show();
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/1.png').fadeIn(100);
