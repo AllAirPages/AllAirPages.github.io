@@ -217,7 +217,7 @@ left: 25%;
   height: 86vh;
 } 
 .counter{
-	position:absolute;
+	position:relative;
 	bottom:0;
 	top:none;
 }
