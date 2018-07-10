@@ -29,7 +29,7 @@ body
 }
 .container
 {
-	height:78vh !important;
+	height:76vh !important;
   position: relative;
   top:6px;
   width: 100%;
@@ -184,7 +184,7 @@ left: 33%;
   }
 .container
 {
-	height:76vh !important;
+	height:75vh !important;
 
 } 
 .text-div{
