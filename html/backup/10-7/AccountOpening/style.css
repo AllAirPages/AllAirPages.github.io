@@ -12,10 +12,6 @@ body
 {
   display: block;
 }
-#PointsRemBtn
-{
-  display: none;
-}
 .wrapper{
 	width:100vh;
 	margin:0 auto;
@@ -52,7 +48,7 @@ body
 height: 45px;
 width: 50px;
 left: 78%;
-top: 23%;
+top: 24%;
 }
 .counter
 {
@@ -62,7 +58,8 @@ top: 23%;
 float: left;
 	font-size:14px;
 	text-align:center;
-     
+      
+    position: relative;
        
 }
 .wrapper .btnstart
@@ -91,11 +88,6 @@ float: left;
     cursor: pointer;
     overflow: hidden;
     outline: none;
-    top: 65%;
-    position: absolute;
-    left: 26%;
-
-
 }
 .btnstyle:hover{
   background-color: #d21213;
@@ -116,22 +108,22 @@ min-height: 6%;
     text-align: center;
     background-color: transparent;
     color: #e91e22;
-	display:table;
     font-weight: bold; 
-
+	display:table;
+	
 margin:0 auto;
     position: relative;
 
 }
 .wrapper .btnPos
 {
-  width: 37%;
-height: 90%;
+  width: 33%;
+height: 95%;
 margin: 0 auto;
 background-color: transparent;
 position: absolute;
 top: 0%;
-left: 33%;
+left: 36%;
 }
 /*.text-div p
 {
@@ -161,10 +153,6 @@ left: 33%;
   width: 80%;
   float: left;
 }
-.dummyimg
-{
-	height:auto;
-}
 @media only screen and (min-width:320px) and (max-width: 1280px) and (orientation: portrait){
  	.wrapper{
 	
@@ -173,10 +161,6 @@ left: 33%;
   background: white;
   overflow: hidden;
 }
-.dummyimg
-{
-	height:90vh;
-}
 .btnstyle{
    width:306px;
    padding: 32px;
@@ -184,13 +168,13 @@ left: 33%;
   }
 .container
 {
-	height:80vh !important;
+	height:74vh !important;
 
 } 
 .text-div{
   margin: 0 auto;
   height: 6vh;
-    font-size:42px;
+  font-size:44px;
 }
 .container
 {
@@ -199,42 +183,21 @@ left: 33%;
 .wrapper .btnPos
 {
     width:60%;
-    height: 90%;
-    left: 25%;
+	left:22%;
+	height:95%;
 }
-
 .container .button1
 {
       position: absolute;
 height:95px;
 width: 100px;
-left:80%;
-top: 24%;
+top: 22%;
+    left: 73%;
 }
  .container img
 {
 	height:100%;
 	
-}
-.btnstyle{
-      width: 324px;
-    background-color: #e50001;
-    border: none;
-    padding: 24px;
-    color: white;
-    font-weight: 600;
-    font-family: sans-serif;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    cursor: pointer;
-    overflow: hidden;
-    outline: none;
-    left: 15%;
-}
-.btnstyle:hover{
-  background-color: #d21213;
 }
 .logo_desc
 {
@@ -259,15 +222,11 @@ top: 24%;
   width:100%;
 
 } 
-.dummyimg
-{
-	height:auto;
-}
+
 .btnstyle{
-      width: 183px;
-    padding: 10px;
-    font-size: 19px;
-    left: 12%;
+   width:306px;
+   padding: 32px;
+   font-size: 38px;
   }
 .logo_desc
 {
@@ -278,10 +237,6 @@ top: 24%;
   margin: 0 auto;
   height: 6%;
 }
-.counter{
-	 top:9px;
-    position: relative;
-}
 .container
 {
   text-align:center;
@@ -290,12 +245,6 @@ top: 24%;
 {
   height:100%;
   
-}
-.wrapper .btnPos
-{
-    width:25%;
-    height: 88%;
-    left: 38%;
 }
 }
 

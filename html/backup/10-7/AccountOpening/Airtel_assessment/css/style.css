@@ -14,11 +14,6 @@ body
   font-family: 'Tondo', Fallback, calbri;
   color: #000000  ;
 }
-#container1,#container2,#container3,#container4,#container5
-{
-	width:95%;
-	margin:0 auto;
-}
 .E_learning_wrapper
 {
   
