@@ -23,8 +23,8 @@
           <div class="logo_desc">OPEN BANK ACCOUNT</div>
       <div class="text-div">
             <div class="back-btn-div"><img class="back-btn" id="bckbtn" value="backcount" src="images/back.png" style="visibility: hidden;"></div>
-           <!--  <div class="bottom-text-div"><p class="text-style" id="aum"><span>Tap OPEN BANK ACCOUNT under Bank Section.</span></p></div> -->
-            <div class="back-btn-div" style="float: right"><img class="back-btn" id="homebtn" src="images/home.png"></div>
+            <div class="bottom-text-div"><p class="text-style" id="aum"><span>Tap OPEN BANK ACCOUNT under Bank Section.</span></p></div>
+            <div class="back-btn-div"><img class="back-btn" id="homebtn" src="images/home.png"></div>
         </div>
       <div class="container" id="div1">
       <img src="images/1.png" id="mainImg">
@@ -65,7 +65,7 @@ var count = 2;
               $(this).attr('src', 'images/2.png').fadeIn(100);
               $('#countButton').css({top: '37%', left: '70%'});
               $('#bckbtn').css({visibility:'visible'});
-              // $("#aum").html("<span class='red'>Enter Customer Mobile Number and Tap Submit.</span>");
+              $("#aum").html("<span class='red'>Enter Customer Mobile Number and Tap Submit.</span>");
               backcount =1;
                  count=3;
           });
