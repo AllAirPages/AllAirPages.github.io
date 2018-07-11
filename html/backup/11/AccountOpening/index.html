@@ -85,7 +85,7 @@ var count = 2;
              $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/4.png').fadeIn(100);
               $('#countButton').css({top: '57%', left: '45%'});
-              $("#aum").html("<span class='red'>Read & Tap Declaration checkbox, Enter Customer's Aadhaar Number/Virtual ID and PAN(if available). Ask customer to Scan finger through Biometric device.</span> ");
+              $("#aum").html("<span class='red'>Read & Tap Declaration checkBox, Enter Customer's Aadhaar Number and PAN(if available). Ask customer to Scan finger through Biometric device.</span> ");
               backcount =3;
                  count=5;
           });
@@ -94,7 +94,7 @@ var count = 2;
         {
              $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/5.png').fadeIn(100);
-              $('#countButton').css({top: '71%', left: '40%'});
+              $('#countButton').css({top: '91%', left: '36%'});
                $("#aum").html(" <span class='red'>if customer has no PAN and applied, Enter acknowledgement Number and Date.</span>");
               backcount =4;
                  count=6;
@@ -128,9 +128,9 @@ var count = 2;
                
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/8.png').fadeIn(100);
-              $('#countButton').css({top: '96%', left: '89%'});
+              $('#countButton').css({top: '28%', left: '81%'});
        
-               $("#aum").html("<span class='red'>Enter Customer correspondence address if local address is different or select correspondence same as above. Select document type for local Address proof.</span>");
+               $("#aum").html("<span class='red'>Enter Customer correspondence address if local address is different or select correspondence same as above.</span>");
               backcount =7;
                  count=9;
           });
@@ -141,7 +141,7 @@ var count = 2;
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/9.png').fadeIn(100);
               $('#countButton').css({top: '97%', left: '78%'});
-              $("#aum").html("<span class='red'>Verify original document and Different sides/sections (If different) are to be scanned eg passport front and back page.</span>");
+              $("#aum").html("<span class='red'>Select document type for local Address proof and Tap Next.</span>");
               backcount =8;
                  count=10;
           });
@@ -151,8 +151,8 @@ var count = 2;
                
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/10.png').fadeIn(100);
-                  $('#countButton').css({top: '79%', left: '92%'}); 
-              $("#aum").html("<span class='red'>Enter Customer other details like Father's Name, Mother's Name, Select Marital Status, Occupation, annual income. Tick checkbox and declare below person as nominee, enter nomine first name.</span>");
+              $('#countButton').css({top: '97%', left: '80%'});  
+              $("#aum").html("<span class='red'>Verify original document and Scan the same document 3 times.</span>");
               backcount =9;
                  count=11;
           });
@@ -162,8 +162,8 @@ var count = 2;
                
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/11.png').fadeIn(100);
-              $('#countButton').css({top: '99%', left: '87%'});
-              $("#aum").html("<span class='red'>Enter Nominee Last Name, DOB & Nominee Relation. If Nominee address same as customer correspondence address, tick checkbox else enter nominee address.</span>");
+              $('#countButton').css({top: '99%', left: '78%'});
+              $("#aum").html("<span class='red' style='font-size:30px;'>Enter Nominee Last Name, DOB & Nominee Relation. If Nominee address same as customer correspondence address, tick checkbox else enter nominee address.</span>");
               backcount =10;
                  count=12;
           });
@@ -184,8 +184,8 @@ var count = 2;
                
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/13.png').fadeIn(100);
-              $('#countButton').css({top: '98%', left: '82%'});
-              $("#aum").html("<span class='red'>Enter Guardian First Name, Last Name, DOB, Guardian address and tap on Check box if Nomine correspondence address and Guardian address is same else enter Guardian address.</span>");
+              $('#countButton').css({top: '43%', left: '82%'});
+              $("#aum").html("<span class='red' style='font-size:22px;'>Enter Gaurdian First Name, Last Name, DOB, Guardian address and tap on Check box if Nomine correspondence address and Guardian address is same else enter Guardian address.</span>");
               backcount =12;
                  count=14;
           });
@@ -195,8 +195,8 @@ var count = 2;
                
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/14.png').fadeIn(100);
-              $('#countButton').css({top: '75%', left: '89%'});
-              $("#aum").html("<span class='red'>Select or Enter First Cash Deposit Amount, Ask customer to read declaration and Tick on Checkbox. Tap Next.</span>");
+              $('#countButton').css({top: '99%', left: '80%'});
+              $("#aum").html("<span class='red'>Tap on Next.</span>");
               backcount =13;
                  count=15;
           });
@@ -206,8 +206,8 @@ var count = 2;
                
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/15.png').fadeIn(100);
-              $('#countButton').css({top: '88%', left: '34%'}); 
-              $("#aum").html("<span class='red'>Ask customer to read summary sheet and Tap Verify Details and Authenticate.</span>");
+              $('#countButton').css({top: '76%', left: '79%'});
+              $("#aum").html("<span class='red'>Select or Enter First Cash Deposit Amount, Ask customer to read declaration and Tick on Checkbox. Tap Next.</span>");
               backcount =14;
                  count=16;
           });
@@ -218,12 +218,22 @@ var count = 2;
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/16.png').fadeIn(100);
               $('#countButton').css({top: '88%', left: '29%'});
-              $("#aum").html("<span class='red'>Read and Accept terms and conditions for Airtel Payments Bank.</span>");
+              $("#aum").html("<span class='red'>Ask customer to read summary sheet and Tap Verify Details and Authenticate.</span>");
               backcount =15;
+                 count=1601;
+          });
+        }
+          else if(count==1601)
+        {
+               
+       $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/1601.png').fadeIn(100);
+              $('#countButton').css({top: '88%', left: '29%'});
+              $("#aum").html("<span class='red'>Check Terms and Conditions.</span>");
+              backcount =16;
                  count=17;
           });
         }
-  
           else if(count==17)
         {
                
@@ -231,7 +241,7 @@ var count = 2;
               $(this).attr('src', 'images/17.png').fadeIn(100);
              $('#countButton').css({top: '40%', left: '35%'});    
               $("#aum").html("<span class='red'> Ask customer to Scan Finger through Biometric Device.</span>");
-              backcount =16;
+              backcount =1601;
                  count=18;
           });
         }
@@ -240,7 +250,7 @@ var count = 2;
                
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/18.png').fadeIn(100);
-               $('#countButton').css({top: '45%', left: '70%'});   
+             $('#countButton').css({top: '45%', left: '65%'});
               $("#aum").html("<span class='red'>Enter Retailer's mPIN.</span>");
               backcount =17;
                  count=19;
@@ -262,8 +272,8 @@ var count = 2;
                
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/20.png').fadeIn(100);
-              $('#countButton').css({top: '38%', left: '35%'});
-              $("#aum").html("<span class='red'>Customer will enter valid Aadhaar Number/Virtual ID, Read & Accept Terms and Conditions. Select wired device for Biometric device and Ask customer scan finger and submit.</span>");
+              $('#countButton').css({top: '52%', left: '35%'});
+              $("#aum").html("<span class='red'>Scan Finger here (for PAN - 1 time and Non-PAN 2 times Biometric Authentication required at NSDL.</span>");
               backcount =19;
                  count=21;
           });
@@ -307,7 +317,7 @@ var count = 2;
               $(this).attr('src', 'images/1.png').fadeIn(100);
               $('#countButton').css({top: '58%', left: '80%'});
                $('#bckbtn').css({visibility:'hidden'});
-              $("#aum").html(" <span class='red'>Tap OPEN BANK ACCOUNT under Bank Section.</span>");
+              $("#aum").html(" <span class='red'>Tap on CASH MANAGEMENT SERVICES.</span>");
               backcount =7;
                  count=2;
           });
@@ -365,7 +375,7 @@ var count = 2;
             $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/4.png').fadeIn(100);
              $('#countButton').css({top: '57%', left: '45%'});
-               $("#aum").html(" <span class='red'>Read & Tap Declaration checkbox, Enter Customer's Aadhaar Number/Virtual ID and PAN(if available). Ask customer to Scan finger through Biometric device.</span>");
+               $("#aum").html(" <span class='red'>Read & Tap Declaration checkBox, Enter Customer's Aadhaar Number and PAN(if available). Ask customer to Scan finger through Biometric device.</span>");
               backcount =3;
                  count=5;
           });
@@ -374,7 +384,7 @@ var count = 2;
         {
              $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/5.png').fadeIn(100);
-               $('#countButton').css({top: '71%', left: '40%'});
+               $('#countButton').css({top: '98%', left: '46%'});
               $('#bckbtn').css({visibility:'visible'});
                $("#aum").html(" <span class='red'>if customer has no PAN and applied, Enter acknowledgement Number and Date.</span>");
               backcount =4;
@@ -410,9 +420,9 @@ var count = 2;
         {
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/8.png').fadeIn(100);
-              $('#countButton').css({top: '96%', left: '89%'});
+              $('#countButton').css({top: '28%', left: '81%'});
 				
-                $("#aum").html("<span class='red'>Enter Customer correspondence address if local address is different or select correspondence same as above. Select document type for local Address proof.</span>");
+                $("#aum").html("<span class='red'>Enter Customer correspondence address if local address is different or select correspondence same as above.</span>");
               backcount =7;
                  count=9;
           });
@@ -422,7 +432,7 @@ var count = 2;
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/9.png').fadeIn(100);
                   $('#countButton').css({top: '97%', left: '78%'});      
-                $("#aum").html("<span class='red'>Verify original document and Different sides/sections (If different) are to be scanned eg passport front and back page.</span>");
+                $("#aum").html("<span class='red'>Select document type for local Address proof and Tap Next.</span>");
               backcount =8;
                  count=10;
           });
@@ -431,8 +441,8 @@ var count = 2;
         {
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/10.png').fadeIn(100);
-              $('#countButton').css({top: '79%', left: '92%'});        
-              $("#aum").html("<span class='red'>Enter Customer other details like Father's Name, Mother's Name, Select Marital Status, Occupation, annual income. Tick checkbox and declare below person as nominee, enter nomine first name.</span>");
+              $('#countButton').css({top: '97%', left: '80%'});        
+              $("#aum").html("<span class='red'>Verify original document and Scan the same document 3 times.</span>");
               backcount =9;
                  count=11;
           });
@@ -441,8 +451,8 @@ var count = 2;
         {
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/11.png').fadeIn(100);
-                $('#countButton').css({top: '99%', left: '87%'});       
-                $("#aum").html("<span class='red'>Enter Nominee Last Name, DOB & Nominee Relation. If Nominee address same as customer correspondence address, tick checkbox else enter nominee address.</span>");
+                $('#countButton').css({top: '99%', left: '78%'});       
+                $("#aum").html("<span class='red' style='font-size:30px;'>Enter Nominee Last Name, DOB & Nominee Relation. If Nominee address same as customer correspondence address, tick checkbox else enter nominee address.</span>");
               backcount =10;
                  count=12;
           });
@@ -461,8 +471,8 @@ var count = 2;
         {
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/13.png').fadeIn(100);
-              $('#countButton').css({top: '98%', left: '82%'});        
-                $("#aum").html("<span class='red'>Enter Guardian First Name, Last Name, DOB, Guardian address and tap on Check box if Nomine correspondence address and Guardian address is same else enter Guardian address.</span>");
+              $('#countButton').css({top: '43%', left: '82%'});        
+                $("#aum").html("<span class='red' style='font-size:22px;'>Enter Gaurdian First Name, Last Name, DOB, Guardian address and tap on Check box if Nomine correspondence address and Guardian address is same else enter Guardian address.</span>");
               backcount =12;
                  count=14;
           });
@@ -471,8 +481,8 @@ var count = 2;
         {
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/14.png').fadeIn(100);
-          $('#countButton').css({top: '75%', left: '89%'});        
-                 $("#aum").html("<span class='red'>Select or Enter First Cash Deposit Amount, Ask customer to read declaration and Tick on Checkbox. Tap Next.</span>");
+              $('#countButton').css({top: '99%', left: '80%'});        
+                 $("#aum").html("<span class='red'>Tap on Next.</span>");
               backcount =13;
                  count=15;
           });
@@ -481,21 +491,30 @@ var count = 2;
         {
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/15.png').fadeIn(100);
-              $('#countButton').css({top: '88%', left: '34%'});        
-                $("#aum").html("<span class='red'>Ask customer to read summary sheet and Tap Verify Details and Authenticate.</span>");
+              $('#countButton').css({top: '76%', left: '79%'});        
+                $("#aum").html("<span class='red'>Select or Enter First Cash Deposit Amount, Ask customer to read declaration and Tick on Checkbox. Tap Next.</span>");
               backcount =14;
                  count=16;
           });
         }
-
-
          else if(backcount==16)
         {
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/16.png').fadeIn(100);
                      $('#countButton').css({top: '88%', left: '29%'});        
-                 $("#aum").html("<span class='red'>Read and Accept terms and conditions for Airtel Payments Bank.</span>");
+                 $("#aum").html("<span class='red'>Ask customer to read summary sheet and Tap Verify Details and Authenticate.</span>");
               backcount =15;
+                 count=1601;
+          });
+        }
+
+         else if(backcount==1601)
+        {
+              $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/1601.png').fadeIn(100);
+                     $('#countButton').css({top: '88%', left: '29%'});        
+                 $("#aum").html("<span class='red'>Please check Terms and Conditions.</span>");
+              backcount =16;
                  count=17;
           });
         }
@@ -505,7 +524,7 @@ var count = 2;
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/17.png').fadeIn(100);
               $('#countButton').css({top: '40%', left: '35%'});        
-                 $("#aum").html("<span class='red'>Ask customer to Scan Finger through Biometric Device.</span>");
+                 $("#aum").html("<span class='red'> Ask customer to Scan Finger through Biometric Device.</span>");
               backcount =16;
                  count=18;
           });
@@ -514,7 +533,7 @@ var count = 2;
         {
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/18.png').fadeIn(100);
-             $('#countButton').css({top: '45%', left: '70%'});   
+             $('#countButton').css({top: '45%', left: '65%'});   
                   $("#aum").html("<span class='red'>Enter Retailer's mPIN.</span>");
               backcount =17;
                  count=19;
@@ -535,8 +554,8 @@ var count = 2;
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/20.png').fadeIn(100);
                  
-               $('#countButton').css({top: '38%', left: '35%'});       
-                $("#aum").html("<span class='red'>Customer will enter valid Aadhaar Number/Virtual ID, Read & Accept Terms and Conditions. Select wired device for Biometric device and Ask customer scan finger and submit.</span>");
+               $('#countButton').css({top: '52%', left: '35%'});       
+                $("#aum").html("<span class='red'>Scan Finger here (for PAN - 1 time and Non-PAN 2 times Biometric Authentication required at NSDL.</span>");
               backcount =19;
                  count=21;
           });
@@ -571,7 +590,7 @@ var count = 2;
               $('#countButton').css({top: '23%', left: '78%'});
               
               $('#bckbtn').css({visibility:'hidden'});
-              $("#aum").html(" <span class='red'>Tap OPEN BANK ACCOUNT under Bank Section.</span>");
+              $("#aum").html(" <span class='red'>Tap on CASH MANAGEMENT SERVICES.</span>");
               
               count=2;
           });
