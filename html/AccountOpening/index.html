@@ -618,9 +618,21 @@ var count = 2;
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/21.png').fadeIn(100);
                  $('#countButton').show(); 
-              $('#PointsRemBtn').hide();   
+             
               $('#countButton').css({top: '59%', left: '1%'});    
                  $("#aum").html("<span class='red'>Authentication Successful. Tap OK.</span>");
+              backcount =20;
+                 count=22;
+          });
+        }
+          else if(backcount==22)
+        {
+              $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/22.png').fadeIn(100);
+                 $('#countButton').show(); 
+              $('#PointsRemBtn').hide();   
+              $('#countButton').css({top: '59%', left: '1%'});    
+                   $("#aum").html("<span class='red'>Congratulation. Account Opening process has been completed.</span>");
               backcount =20;
                  count=22;
           });
