@@ -12,15 +12,7 @@ body
 {
   display: block;
 }
-#Next1,#Next2
-{
-     top: 93%;
-    left: 96%;
-    position: absolute;
-        height: 95px;
-    width: 100px;
-}
-#PointsRemBtn,#contentDiv,#introdiv2
+#PointsRemBtn
 {
   display: none;
 }
@@ -43,19 +35,7 @@ body
   width: 100%;
   float: left;
   text-align: center;
-
-} 
-.container1
-{
-  height:95vh !important;
-  position: relative;
-  top:6px;
-  width: 100%;
-  float: left;
-  text-align: center;
-    margin-top: 40px;
-  
-  
+	
 } 
 .logo_desc {
     font-size: 24px;
@@ -63,12 +43,8 @@ body
     padding: 8px;
     background: #e91e22;
     text-align: center;
-    line-height: 32px;
+    line-height: 26px;
     font-weight: bold;
-        display: table;
-    width: 700px;
-    margin: 0 auto;
-
 }
 .container .button1
 {
@@ -88,9 +64,6 @@ float: left;
 	text-align:center;
      
        
-}
-#Hindi{
-  display: none;
 }
 .wrapper .btnstart
 {
@@ -169,24 +142,6 @@ left: 35%;
 	height:100%;
 	
 }
-select
-{
-    font-size: 14px;
-    padding: 5px;
-    float: right;
-    position: relative;
-    margin-right: 20px;
-}
-select option
-{
-  font-size: 14px;
-  
-}
-.container1 #mainImg1,#mainImg2
-{
-  height:100%;
-  
-}
 .boxContainer
 {
   width: 100vh;
@@ -216,17 +171,7 @@ select option
 	width:100% !important;
 	height:100vh !important;
   background: white;
-  /*overflow: hidden;*/
-}
-select
-{
-    font-size: 45px;
-    padding: 5px;
-}
-select option
-{
-  font-size: 14px;
-  
+  overflow: hidden;
 }
 .dummyimg
 {
@@ -240,12 +185,7 @@ select option
   }
 .container
 {
-	height:75vh !important;
-
-} 
-.container1
-{
-  height:83vh !important;
+	height:70vh !important;
 
 } 
 .text-div{
@@ -301,12 +241,11 @@ top: 24%;
 {
       font-size: 44px;
     padding: 20px;
-    width: 100%;
 }
 .counter{
 	position:relative;
 	bottom:0;
-	top:22px;
+	top:none;
 }
 }
 
@@ -335,7 +274,6 @@ top: 24%;
 {
      font-size: 44px;
     padding: 20px;
-     width: 100%;
 }
 .text-div{
   margin: 0 auto;

@@ -1,31 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>OPEN BANK ACCOUNT</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-
-</head>
-<body>
-
-	
-		
-		
-
-
-		<!-- <div class="image-div">
-			<div class="img-div">
-				<img src="images/1.jpg">	
-
-			</div> -->
- <div class="logo_desc">OPEN BANK ACCOUNT
-            <select>
-              <option>English</option>
-              <option>Hindi</option>
-            </select>
-          </div>
-
-      <div class="wrapper" id="English">
- <div id="introdiv1">
+<div id="introdiv1">
          
 
       <div class="text-div" style="display: none">
@@ -44,7 +17,7 @@
        </div>
 
 <div id="introdiv2">
-        
+   
       <div class="text-div" style="display: none">
         
             
@@ -74,19 +47,8 @@
      
     </div>
          </div>   
-</div>
-<div class="counter">   
- <img src="https://www.reliablecounter.com/count.php?page=https://allairpages.github.io/html/AccountOpening/index.html&digit=style/plain/6/&reloads=0" alt="web counters html" title="web counters html" border="0">
-</div>  	
-
-
-	
-	
-
-
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script>
- $('#Next1').click(function()
+         <script type="text/javascript">
+            $('#Next1').click(function()
        {
             
             $('#introdiv2').show();
@@ -104,7 +66,7 @@
         });
 
 var count = 2;
-	  var backcount=1;
+    var backcount=1;
     var homebuttton;
       var button = document.getElementById("countButton");
        var backbutton = document.getElementById("bckbtn");
@@ -170,10 +132,10 @@ var count = 2;
          else if(count==7)
         {
                
-			 $("#mainImg").fadeOut(10, function () {
+       $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/7.png').fadeIn(100);
               $('#countButton').css({top: '75%', left: '65%'});
-			 
+       
            $("#aum").html("<span class='red'>Customer data retrieved from Aadhaar, Enter customer correspondence address if different.</span> ");
               backcount =6;
                  count=8;
@@ -468,7 +430,7 @@ var count = 2;
 
          else if(backcount==7)
         {
-			
+      
             $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/7.png').fadeIn(100);
               $('#countButton').css({top: '75%', left: '65%'});
@@ -483,7 +445,7 @@ var count = 2;
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/8.png').fadeIn(100);
               $('#countButton').css({top: '62%', left: '17%'});
-				
+        
                 $("#aum").html("<span class='red'>Or select correspondence same as above. Select document type for local Address proof.</span>");
               backcount =7;
                  count=9;
@@ -636,6 +598,7 @@ var count = 2;
         $('#introdiv1').show();
         $('#contentDiv').hide();
             $('#introdiv2').hide();
+             $('#countButton').show(); 
             $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/1.png').fadeIn(100);
               $('#countButton').css({top: '23%', left: '80%'});
@@ -646,6 +609,4 @@ var count = 2;
           
           });
         }
-</script>
-</body>
-</html>
+         </script>
