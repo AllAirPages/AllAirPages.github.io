@@ -47,7 +47,7 @@ body
 } 
 .container1
 {
-  height:95vh !important;
+  height:88vh !important;
   position: relative;
   top:6px;
   width: 100%;
@@ -89,7 +89,7 @@ float: left;
      
        
 }
-#Hindi,#hindihead{
+#Hindi{
   display: none;
 }
 .wrapper .btnstart
