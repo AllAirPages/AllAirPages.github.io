@@ -303,7 +303,8 @@ var count = 2;
        $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/22.png').fadeIn(100);
               
-              
+               $('#countButton').hide();
+              $('#PointsRemBtn').show();
                   $('#countButton').css({top: '64%', left: '40%'}); 
               $("#aum").html("<span class='red'>आपको बधाई। खाता खोलने की प्रक्रिया पूरी हो चुकी है।</span>");
               backcount =21;
@@ -315,8 +316,7 @@ var count = 2;
                
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/last_hindi.png').fadeIn(100);
-              $('#countButton').hide();
-              $('#PointsRemBtn').show();
+             
               $("#aum").html("<span class='red'>ग्राहक के लिए लाभ और निर्देश.</span>");
               backcount =22;
                  count=23;
