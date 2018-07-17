@@ -1,4 +1,12 @@
-
+@font-face {
+  font-family: 'Tondo';
+  src: url('Fonts/Tondo_Corp_Rg.ttf'); /* IE9 Compat Modes */
+  src: url('Fonts/Tondo_Corp_Rg.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Super Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Fonts/Tondo_Corp_Rg.ttf#svgFontName') format('svg'); /* Legacy iOS */
+}
 body
 {
   margin: 0;
