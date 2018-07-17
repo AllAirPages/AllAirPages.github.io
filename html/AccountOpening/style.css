@@ -251,7 +251,7 @@ select option
 .text-div{
   margin: 0 auto;
   height: 6vh;
-    font-size:42px;
+    font-size:18px;
 }
 .container
 {
@@ -267,8 +267,8 @@ select option
 .container .button1
 {
       position: absolute;
-height:95px;
-width: 100px;
+height:43px;
+width: 49px;
 left:80%;
 top: 24%;
 }
