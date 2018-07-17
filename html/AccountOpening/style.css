@@ -75,7 +75,7 @@ body
 .logo_desc {
     font-size: 24px;
     color: #ffffff;
-  
+      line-height: 22px;
     background: #e91e22;
     text-align: center;
     line-height: 32px;
@@ -318,7 +318,7 @@ top: 24%;
 .logo_desc
 {
       font-size: 18px;
-
+    line-height: 22px;
     width: 100%;
 }
 .counter{
@@ -353,6 +353,7 @@ top: 24%;
 {
      font-size: 44px;
     padding: 20px;
+        line-height: 22px;
      width: 100%;
 }
 .text-div{
