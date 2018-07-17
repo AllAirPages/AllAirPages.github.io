@@ -24,6 +24,11 @@ body
 {
   display: none;
 }
+#PointsRemBtn
+{
+  top: 88%;
+  left:15%;
+}
 .wrapper{
 	width:100vh;
 	margin:0 auto;
@@ -103,7 +108,7 @@ float: left;
     left: 25%;
 }
 .btnstyle{
-      width: 150px;
+      width: 133px;
     background-color: #e50001;
     border: none;
     padding: 12px;
