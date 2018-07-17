@@ -220,7 +220,7 @@ select option
 }
 select
 {
-    font-size: 45px;
+    font-size: 14px;
     padding: 5px;
 }
 select option
@@ -299,7 +299,7 @@ top: 24%;
 }
 .logo_desc
 {
-      font-size: 44px;
+      font-size: 18px;
     padding: 20px;
     width: 100%;
 }
