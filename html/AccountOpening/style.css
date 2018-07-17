@@ -60,7 +60,7 @@ body
 .logo_desc {
     font-size: 24px;
     color: #ffffff;
-    padding: 8px;
+  
     background: #e91e22;
     text-align: center;
     line-height: 32px;
@@ -175,6 +175,9 @@ select
     padding: 5px;
     float: right;
     position: relative;
+	margin-bottom:3px;
+	margin-top:4px;
+	margin-right:10px;
     
 }
 select option
