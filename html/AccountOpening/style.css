@@ -35,8 +35,9 @@ body
 	margin:0 auto;
 	text-align:center;
   position: relative;
-	height:100vh !important;
-}
+  margin-bottom: 10px;
+	/*height:100vh !important;
+*/}
 #contentDiv
 {
   display: none;
@@ -223,7 +224,7 @@ select option
  	.wrapper{
 	
 	width:100% !important;
-	height:100vh !important;
+/*	height:100vh !important;*/
   background: white;
   /*overflow: hidden;*/
 }
