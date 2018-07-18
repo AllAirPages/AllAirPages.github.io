@@ -105,8 +105,7 @@ var count = 2;
     var homebuttton;
       var button = document.getElementById("countButton");
        var backbutton = document.getElementById("bckbtn");
-        $('#bckbtn').css({visibility:'hidden'});
-      var homebuttton = document.getElementById("homebtn");
+              var homebuttton = document.getElementById("homebtn");
 
       button.onclick = function()
       {
@@ -364,6 +363,8 @@ var count = 2;
               $(this).attr('src', 'images/1.png').fadeIn(100);
               $('#countButton').css({top: '58%', left: '80%'});
                $('#bckbtn').css({visibility:'hidden'});
+               $('#PointsRemBtn').css({visibility:'hidden'});
+
               $("#aum").html(" <span class='red'>बैंक सेक्शन के तहत OPEN BANK ACCOUNT पर टैप करें।</span>");
               backcount =7;
                  count=2;
