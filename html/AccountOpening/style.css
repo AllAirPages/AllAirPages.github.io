@@ -35,7 +35,7 @@ body
 #PointsRemBtn
 {
   top: 88%;
-  left:15%;
+  left:32%;
   
 }
 .wrapper{
@@ -235,6 +235,12 @@ select option
 /*	height:100vh !important;*/
   background: white;
   /*overflow: hidden;*/
+}
+#PointsRemBtn
+{
+  top: 88%;
+  left:15%;
+  
 }
 select
 {
