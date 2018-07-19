@@ -1,0 +1,435 @@
+@font-face {
+  font-family: 'Tondo';
+  src: url('Fonts/Tondo_Corp_Rg.ttf'); /* IE9 Compat Modes */
+  src: url('Fonts/Tondo_Corp_Rg.ttf?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Super Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf') format('ttf'), /* Pretty Modern Browsers */
+       url('Fonts/Tondo_Corp_Rg.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('Fonts/Tondo_Corp_Rg.ttf#svgFontName') format('svg'); /* Legacy iOS */
+}
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: 'Tondo', Fallback, sans-serif;
+  font-size: 14px;
+  width:100%;
+  height:100%;
+}
+#countButton
+{
+  display: block;
+}
+#Next1,#Next2
+{
+     top: 93%;
+    left: 96%;
+    position: absolute;
+        height: 46px;
+    width: 53px;
+}
+#PointsRemBtn,#contentDiv,#introdiv2
+{
+  display: none;
+}
+#PointsRemBtn
+{
+  top: 88%;
+  left:32%;
+  
+}
+.wrapper{
+	width:100vh;
+	margin:0 auto;
+	text-align:center;
+  position: relative;
+  margin-bottom: 10px;
+	/*height:100vh !important;
+*/}
+#contentDiv
+{
+  display: none;
+}
+.container
+{
+	height:76vh !important;
+  position: relative;
+
+  width: 100%;
+  float: left;
+  text-align: center;
+
+} 
+.container1
+{
+  height:82vh !important;
+  position: relative;
+  top:6px;
+  width: 100%;
+  float: left;
+  text-align: center;
+    margin-top: 12px;
+  
+  
+} 
+.logo_desc {
+    font-size: 24px;
+    color: #ffffff;
+      line-height: 22px;
+    background: #e91e22;
+    text-align: center;
+    line-height: 32px;
+    font-weight: bold;
+        display: table;
+    width: 700px;
+    margin: 0 auto;
+
+}
+.container .button1
+{
+     position: absolute;
+height: 45px;
+width: 50px;
+left: 78%;
+top: 23%;
+}
+.counter
+{
+
+	margin:0 auto;
+  width: 100%;
+float: left;
+	font-size:14px;
+	text-align:center;
+     
+       
+}
+#Hindi{
+  display: none;
+}
+.wrapper .btnstart
+{
+    width: 50%;
+    /* height: 90%; */
+    margin: 0 auto;
+    background-color: transparent;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+.btnstyle{
+    width: auto;
+    background-color: #e50001;
+    border: none;
+    padding: 6px;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    top: 65%;
+    position: absolute;
+    left: 26%;
+
+
+}
+.btnstyle:hover{
+  background-color: #d21213;
+}
+.counter img
+{
+  width: 100px;
+}
+#div2, #div3, #div4, #div5, #div6, #div7, #div8
+{
+  display: none;
+}
+.text-div{
+        width: 100%;
+       font-size:26px;
+min-height: 6%;
+    float: left;
+    text-align: center;
+    background-color: transparent;
+    color: #e91e22;
+	display:table;
+    font-weight: bold; 
+
+margin:0 auto;
+    position: relative;
+
+}
+.wrapper .btnPos
+{
+  width: 30%;
+height: 90%;
+margin: 0 auto;
+background-color: transparent;
+position: absolute;
+top: 0%;
+left: 35%;
+}
+/*.text-div p
+{
+  padding: 10px;
+}*/
+.container img
+{
+	height:100%;
+	
+}
+select
+{
+    font-size: 14px;
+    padding: 5px;
+    float: right;
+    position: relative;
+	margin-bottom:3px;
+	margin-top:4px;
+	margin-right:10px;
+    
+}
+select option
+{
+  font-size: 14px;
+  
+}
+.container1 #mainImg1,#mainImg2
+{
+  height:100%;
+  
+}
+.boxContainer
+{
+  width: 100vh;
+  text-align: left;
+
+
+}
+
+.back-btn-div{
+  width: 10%;
+  float: left;
+}
+.back-btn{
+  width: 100%; margin-top: 5px; cursor: pointer;
+}
+.bottom-text-div{
+  width: 80%;
+  float: left;
+}
+.dummyimg
+{
+	height:auto;
+}
+@media only screen and (min-width:320px) and (max-width: 1280px) and (orientation: portrait){
+ 	.wrapper{
+	
+	width:100% !important;
+/*	height:100vh !important;*/
+  background: white;
+  /*overflow: hidden;*/
+}
+#PointsRemBtn
+{
+  top: 88%;
+  left:15%;
+  
+}
+select
+{
+    font-size: 14px;
+    padding: 5px;
+}
+select option
+{
+  font-size: 14px;
+  
+}
+.dummyimg
+{
+	height:90vh;
+}
+.btnstyle{
+   width:306px;
+   padding: 32px;
+   left: 18%;
+   font-size: 20px;
+  }
+.container
+{
+	height:75vh !important;
+
+} 
+.container1
+{
+  height:83vh !important;
+
+} 
+.text-div{
+  margin: 0 auto;
+  height: 6vh;
+    font-size:18px;
+}
+.container
+{
+	text-align:center;
+}
+.wrapper .btnPos
+{
+    width:50%;
+    height: 90%;
+    left: 24%;
+}
+
+.container .button1
+{
+      position: absolute;
+height:43px;
+width: 49px;
+left:80%;
+top: 24%;
+}
+ .container img
+{
+	height:100%;
+	
+}
+.btnstyle{
+      width: auto;
+    background-color: #e50001;
+    border: none;
+    padding: 6px;
+    color: white;
+    font-weight: 600;
+    font-family: sans-serif;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    left: 15%;
+}
+.btnstyle:hover{
+  background-color: #d21213;
+}
+.logo_desc
+{
+      font-size: 18px;
+    line-height: 22px;
+    width: 100%;
+}
+.counter{
+	position:relative;
+	bottom:0;
+	top:22px;
+}
+}
+
+@media only screen and (min-width:481px) and (max-width: 1280px) and (orientation: landscape){
+  .wrapper{
+    width:100% !important;
+  height:100% !important;
+}
+.container
+{
+  height:100% !important;
+  width:100%;
+
+} 
+.dummyimg
+{
+	height:auto;
+}
+.btnstyle{
+      width: 183px;
+    padding: 10px;
+    font-size: 19px;
+    left: 12%;
+  }
+.logo_desc
+{
+     font-size: 44px;
+    padding: 20px;
+        line-height: 22px;
+     width: 100%;
+}
+.text-div{
+  margin: 0 auto;
+  height: 6%;
+}
+.counter{
+	 top:9px;
+    position: relative;
+}
+.container
+{
+  text-align:center;
+}
+ .container img
+{
+  height:100%;
+  
+}
+.wrapper .btnPos
+{
+    width:25%;
+    height: 88%;
+    left: 38%;
+}
+}
+
+
+
+
+/*@media only screen and (min-width: 768px) and (max-width: 991px){
+    .wrapper{
+width:100%;
+margin:0 auto;
+
+}
+
+.text-div{
+        width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: #e91e22;
+    color: white;
+    bottom: 0;
+    margin-top: -34px;
+    position: relative;
+
+}
+
+
+.container1 {
+     position: absolute;
+    width: 68%;
+    bottom: -94px;
+    background: red;
+    left: 16%;
+    
+}
+
+.text-style{
+       font-size: 28px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 3px;
+    color: white;
+}
+
+.container img {
+    width: 68%;
+    height: auto;}
+}
+
+*/
