@@ -390,6 +390,7 @@ top: 19%;
     cursor: pointer;
     overflow: hidden;
     outline: none;
+    position: relative;
     
 }
 
