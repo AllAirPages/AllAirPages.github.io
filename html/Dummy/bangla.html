@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta http-equiv="Content-Language" content="hi" />
+  <title>OPEN BANK ACCOUNT</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+ <div class="logo_desc"><span id="enghead">ব্যাঙ্ক অ্যাকাউন্ট খুলুন – নতুন ধারা<br>
+ প্রশিক্ষণ এবং প্রমাণপত্রদান</span> <!-- <span id="hindihead">बैंक खाता खोलें</span> -->
+           
+          </div>
+
+    <div class="wrapper" id="page">
+
+
+<div id="introdiv1">
+         
+
+      <div class="text-div" style="display: block;">
+            <div class="back-btn-div"><img class="back-btn" id="" value="backcount" src="images/back.png" style="visibility: hidden;"></div>
+           
+            <div class="back-btn-div" style="float: right"><img class="back-btn" id="mainBack" src="images/home.png"></div>
+        </div>
+      <div class="container1" id="div1">
+      <img src="images/first.png" id="mainImg1">
+        <div class="btnPos" style="height: 90%"> <img src="images/btn.gif" class="button1" value="Count" id="Next1">
+         
+      
+     
+    </div>
+         </div>   
+       </div>
+
+<div id="introdiv2">
+   
+      <div class="text-div">
+        
+            
+            <div class="back-btn-div" style="float: right"><img class="back-btn" id="homebtn2" src="images/home.png"></div>
+        </div>
+      <div class="container1" id="div14">
+      <img src="images/second.png" id="mainImg2">
+        <div class="btnPos" style="height: 90%"> <img src="images/btn.gif" class="button1" value="Count" id="Next2">
+      <!--   <button class="btnstyle"  id="PointsRemBtn">Assessment</button>--></div>
+      
+     
+    </div>
+         </div> 
+
+        <div id="contentDiv">
+     
+      <div class="text-div">
+            <div class="back-btn-div"><img class="back-btn" id="bckbtn" value="backcount" src="images/back.png" ></div>
+            <div class="bottom-text-div"><p class="text-style" id="aum"><span>ব্যাঙ্ক বিভাগের অধীনে ব্যাঙ্ক অ্যাকাউন্ট খুলুন –এ আলতো চাপুন.</span></p></div>
+            <div class="back-btn-div"><img class="back-btn" id="homebtn" src="images/home.png"></div>
+        </div>
+      <div class="container" id="div13">
+      <img src="images/1.png" id="mainImg">
+        <div class="btnPos"> <img src="images/btn.gif" class="button1" value="Count" id="countButton">
+         <button class="btnstyle1" id="PointsRemBtn">এর সম্পর্কে আরও জানুন</button></div>
+      
+     
+    </div>
+         </div> 
+         </div>
+         <div class="counter">   
+ <img src="https://www.reliablecounter.com/count.php?page=https://allairpages.github.io/html/AccountOpening/index.html&digit=style/plain/6/&reloads=0" alt="web counters html" title="web counters html" border="0">
+</div>   
+<script type="text/javascript" src="js/jquery.min.js"></script>
+         <script type="text/javascript">
+            $('#Next1').click(function()
+       {
+            
+            $('#introdiv2').show();
+            $('#introdiv1').hide();
+            $('#contentDiv').hide();
+            
+        });
+      $('#Next2').click(function()
+       {
+            
+            $('#contentDiv').show();
+            $('#introdiv2').hide();
+
+            
+        });
+         $('#mainBack').click(function()
+       {
+            
+            window.location.href = 'index.html';
+    return false;
+
+            
+        });
+      
+          $('#homebtn2').click(function()
+       {
+           
+          $('#introdiv2').hide();
+          $('#introdiv1').show(); 
+        });
+
+var count = 2;
+    var backcount=0;
+    var homebuttton;
+      var button = document.getElementById("countButton");
+       var backbutton = document.getElementById("bckbtn");
+
+      var homebuttton = document.getElementById("homebtn");
+
+      button.onclick = function()
+      {
+
+        if(count==2)
+        {
+          
+             $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/2.png').fadeIn(100);
+              $('#countButton').css({top: '32%', left: '70%'});
+              $('#bckbtn').css({visibility:'visible'});
+              $("#aum").html("<span class='red'>এখানে গ্রাহকের মোবাইল নম্বর এন্টার করুন এবং জমা করা –তে আলতো চাপুন.</span>");
+              backcount =1;
+                 count=3;
+          });
+        }
+        else if(count==3)
+        {
+             $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/3.png').fadeIn(100);
+              $('#countButton').css({top: '61%', left: '66%'});
+             $("#aum").html("<span class='red red1'>গ্রাহক অ্যাক্টিভেশন কোডটি পেয়ে থাকবেন, তাদের কোডটি জিজ্ঞাসা করুন এবং এণ্টার- এ প্রেস করুন এবং তারপর জমা করা – তে আলতো চাপুন.<span class='green'>মনে রাখবেন, বীমা নীতি অনুযায়ী গ্রাহকের সম্মতি ছাড়া ব্যাঙ্ক অ্যাকাউন্ট খুলবেন না, নাহলে জরিমানা প্রযোজ্য হবে.</span></span>");
+              backcount =2;
+                 count=4;
+          });
+        }
+        else if(count==4)
+        {
+             $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/4.png').fadeIn(100);
+              $('#countButton').css({top: '50%', left: '40%'});
+              $("#aum").html("<span class='red red111'>গ্রাহককে বিবৃতি, নিয়ম এবং শর্তাবলীগুলি পড়ার জন্য অনুরোধ করুন এবং সংশ্লিষ্ট চেক বাক্সে রাখুন, গ্রাহককে বেস নম্বর অথবা ভার্চুয়াল আইডি এবং প্যান (যদি পাওয়া যায়) এন্টার করতে বলুন, বায়োমেট্রিক ডিভাইসের মাধ্যমে আঙুলটি স্ক্যান করার জন্য গ্রাহককে অনুরোধ করুন.</span> ");
+              backcount =3;
+                 count=5;
+          });
+        }
+        else if(count==5)
+        {
+             $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/5.png').fadeIn(100);
+              $('#countButton').css({top: '62%', left: '40%'});
+            $("#aum").html(" <span class='red'>যদি গ্রাহকের কোনও প্যান নম্বর না থাকে এবং তারা তার জন্য আবেদন করে থেকে থাকেন তবে স্বীকারোক্তি সংখ্যা এবং তারিখ এন্টার করতে বলুন.</span>");
+              backcount =4;
+                 count=6;
+          });
+        }
+         else if(count==6)
+        {
+             $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/6.png').fadeIn(100);
+              $('#countButton').css({top: '52%', left: '40%'});
+              $("#aum").html("<span class='red red11'>যদি গ্রাহকের কোনো প্যান না থাকে এবং এমনকি তারা এর জন্য আবেদনও না করে থাকেন, তাহলে না – নির্বাচন  করুন এবং গ্রাহককে বায়োমেট্রিক ডিভাইসের মাধ্যমে আঙুলটি স্ক্যান করতে বলুন.</span>");
+              backcount =5;
+                 count=7;
+          });
+
+        }
+         else if(count==7)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/7.png').fadeIn(100);
+              $('#countButton').css({top: '67%', left: '65%'});
+       
+           $("#aum").html("<span class='red red111'>বেস সিস্টেম থেকে গ্রাহকের তথ্য পাওয়া যাবে, যদি গ্রাহকের মূল ঠিকানা যোগাযোগের ঠিকানা থেকে আলাদা হয়, তবে অনুগ্রহ করে যোগাযোগের ঠিকানা এন্টার করুন অথবা যদি দুটি একই হয়, তবে এখানে টিক করুন.</span> ");
+              backcount =6;
+                 count=8;
+          });
+        }
+         else if(count==8)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/8.png').fadeIn(100);
+              $('#countButton').css({top: '55%', left: '6%'});
+       
+               $("#aum").html("<span class='red'>যোগাযোগের ঠিকানা এন্টার করুন. যোগাযোগের ঠিকানার প্রমানের জন্য নথির ধরণ বাছাই করুন.</span>");
+              backcount =7;
+                 count=9;
+          });
+        }
+          else if(count==9)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/9.png').fadeIn(100);
+              $('#countButton').css({top: '85%', left: '78%'});
+             $("#aum").html("<span class='red red11'>আসল নথির উভয় দিকের ছবিগুলি, যেমন পাসপোর্টের সামনের ও পিছনের পেজ এর, ছবির জন্য রিটেলারের ক্যামেরার বোতামটি আলতো চাপুন. আসল নথি যাচাই করুন এবং পরবর্তী –তে আলতো চাপুন.</span>");
+              backcount =8;
+                 count=10;
+          });
+        }
+        else if(count==10)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/10.png').fadeIn(100);
+                  $('#countButton').css({top: '70%', left: '78%'}); 
+               $("#aum").html("<span class='red red111'>গ্রাহকের অন্যান্য নথি যেমন  পিতার নাম, মাতার নাম, বৈবাহিক অবস্থা, ব্যবসা, বার্ষিক আয়ের  বিকল্পগুলি বাছাই করুন. গ্রাহককে মনোনীত ব্যক্তির ঘোষণার চেকবক্সে থাকতে বলুন, এবং মনোনীত ব্যক্তির নামের প্রথমাংশ এন্টার করতে বলুন.</span>");
+              backcount =9;
+                 count=11;
+          });
+        }
+        else if(count==11)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/11.png').fadeIn(100);
+              $('#countButton').css({top: '87%', left: '75%'});
+              $("#aum").html("<span class='red red111'>মনোনীত ব্যক্তির নামের শেষাংশ, জন্ম তারিখ এবং মনোনীত ব্যক্তির সাথে সম্পর্ক এন্টার করুন. যদি মনোনীত ব্যক্তির এবং গ্রাহকের যোগাযোগের ঠিকানা এক হয়, তবে চেকবক্সে চেক করুন এবং যদি আলাদা হয়, তবে মনোনীত ব্যক্তির ঠিকানা এন্টার করুন.</span>");
+              backcount =10;
+                 count=12;
+          });
+        }
+         else if(count==12)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/12.png').fadeIn(100);
+              $('#countButton').css({top: '57%', left: '58%'});
+              $("#aum").html("<span class='red'>যদি মনোনীত ব্যক্তি নাবালক হয়, তবে অভিবাবকের বিবরণ সমূহ এন্টার করুন.</span>");
+              backcount =11;
+                 count=13;
+          });
+        }
+        else if(count==13)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/13.png').fadeIn(100);
+              $('#countButton').css({top: '87%', left: '76%'});
+              $("#aum").html("<span class='red red111'>পিতা-মাতার নামের প্রথমাংশ, শেষাংশ, জন্ম তারিখ. যদি মনোনীত ব্যক্তির যোগাযোগের ঠিকানা এবং অভিভাবকের ঠিকানা একই হয় , তবে চেকবক্সে আলতো চাপুন যদি আলাদা হয় , তবে অভিভাবকের ঠিকানা এন্টার করুন.</span>");
+              backcount =12;
+                 count=14;
+          });
+        }
+        else if(count==14)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/14.png').fadeIn(100);
+              $('#countButton').css({top: '66%', left: '75%'});
+              $("#aum").html("<span class='red red11'>গ্রাহককে বিবৃতিটি পড়তে এবং চেকবক্সটি চেক করতে অনুরোধ করুন , প্রথম জমা দেওয়া টাকা নির্বাচন বা এন্টার করতে  যার পরিমাণ  অন্ততপক্ষে 100 টাকা. পরবর্তী-তে আলতো চাপুন.</span>");
+              backcount =13;
+                 count=15;
+          });
+        }
+        else if(count==15)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/15.png').fadeIn(100);
+              $('#countButton').css({top: '77%', left: '34%'}); 
+              $("#aum").html("<span class='red'>গ্রাহককে সারাংশ পত্রটি পড়তে অনুরোধ করুন এবং যাচাই এবং প্রমাণীকরণ বোতামটি আলতো চাপুন.</span>");
+              backcount =14;
+                 count=16;
+          });
+        }
+         else if(count==16)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/16.png').fadeIn(100);
+              $('#countButton').css({top: '77%', left: '29%'});
+              $("#aum").html("<span class='red'>এয়ারটেল পেমেন্টস ব্যাঙ্কের জন্য গ্রাহককে নিয়ম ও শর্তাবলীগুলি পড়তে এবং স্বীকার করতে অনুরোধ করুন.</span>");
+              backcount =15;
+                 count=17;
+          });
+        }
+  
+          else if(count==17)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/17.png').fadeIn(100);
+             $('#countButton').css({top: '35%', left: '40%'});    
+              $("#aum").html("<span class='red'>গ্রাহককে বায়োমেট্রিক ডিভাইসের মাধ্যমে আঙুলের স্ক্যান করতে বলুন.</span>");
+              backcount =16;
+                 count=18;
+          });
+        }
+        else if(count==18)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/18.png').fadeIn(100);
+               $('#countButton').css({top: '38%', left: '70%'});   
+             $("#aum").html("<span class='red'>রিটেলাররা তাদের mPIN এন্টার করুন, এখন গ্রাহক অধিগ্রহণ ফর্ম এবং 60 নম্বর ফর্মে ডিজিটাল স্বাক্ষর জন্য NSDL স্ক্রিনে যান.</span>");
+              backcount =17;
+                 count=19;
+          });
+        }
+         else if(count==19)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/19.png').fadeIn(100);
+              $('#countButton').css({top: '84%', left: '3%'});
+              $("#aum").html("<span class='red'>গ্রাহককে নিয়ম ও শর্তাবলীগুলি পড়তে এবং স্বীকার করতে বলুন. ওকে –তে আলতো চাপুন.</span>");
+              backcount =18;
+                 count=20;
+          });
+        }
+          else if(count==20)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/20.png').fadeIn(100);
+              $('#countButton').css({top: '32%', left: '35%'});
+              $("#aum").html("<span class='red'>এখানে গ্রাহককে আধার নম্বর ও আধার ভার্চুয়াল আইডি এবং নিয়ম ও শর্তাবলীগুলি স্বীকার করতে বলুন.</span>");
+              backcount =19;
+                 count=21;
+          });
+        }
+            else if(count==21)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/21.png').fadeIn(100);
+        $('#countButton').css({top: '51%', left: '2%'});    
+              $("#aum").html("<span class='red'>বায়োমেট্রিক ডিভাইসের জন্য তার দ্বারা যুক্ত ডিভাইস নির্বাচন করুন এবং গ্রাহককে ফিঙ্গার স্ক্যান করতে এবং তা জমা করতে বলুন.</span>");
+              backcount =20;
+                 count=22;
+          });
+        }
+        else if(count==22)
+        {
+               
+       $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/22.png').fadeIn(100);
+              
+              
+                  $('#countButton').css({top: '56%', left: '40%'}); 
+              $("#aum").html("<span class='red'>অভিনন্দন!ব্যাঙ্ক অ্যাকাউন্ট খোলার প্রক্রিয়াটি সম্পন্ন হয়েছে. এবং গ্রাহক অবশ্যই বার্তাটি পাবেন.</span>");
+              backcount =21;
+                 count=23;
+          });
+        }
+        else if(count==23)
+        {
+               
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/last.png').fadeIn(100);
+              $('#countButton').hide();
+              $('#PointsRemBtn').show();
+              $("#aum").html("<span class='red red11'>ব্যাঙ্ক অ্যাকাউন্টে গ্রাহকের জন্য উপকারিতা এবং নির্দেশাবলী. নীচের লিঙ্কে ক্লিক করুন এবং ' PMJJBY সম্পর্কে আরও জানুন' (প্রধানমন্ত্রীর জীবন জ্যোতি বীমা যোজনা).</span>");
+              backcount =22;
+                 count=23;
+          });
+        }
+         else if(count==1)
+        {
+          
+             $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/1.png').fadeIn(100);
+              $('#countButton').css({top: '58%', left: '80%'});
+               $('#bckbtn').css({visibility:'hidden'});
+              $("#aum").html(" <span class='red'>ব্যাঙ্ক বিভাগের অধীনে ব্যাঙ্ক অ্যাকাউন্ট খুলুন –এ আলতো চাপুন.</span>");
+              backcount =7;
+                 count=2;
+                 
+          });
+        }
+       
+          else if(count==23)
+        {
+             
+              
+     window.location.href = 'PMJJBY/bangla.html';
+    return false;
+
+
+        }
+
+   
+    }
+ $('#PointsRemBtn').click(function()
+ {
+     window.location.href = 'PMJJBY/bangla.html';
+    return false;
+ });
+
+
+
+     backbutton.onclick = function()
+      {
+
+     
+        if(backcount==1)
+        {
+            $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/1.png').fadeIn(100);
+             $('#countButton').css({top: '19%', left: '78%'});
+              $('#bckbtn').css({visibility:'hidden'});
+              $("#aum").html(" <span class='red'>ব্যাঙ্ক বিভাগের অধীনে ব্যাঙ্ক অ্যাকাউন্ট খুলুন –এ আলতো চাপুন. </span>");
+              backcount =7;
+              count=2;
+          });
+        }
+          else if(backcount==0)
+        {
+            $('#introdiv2').show();
+            $('#introdiv1').hide();
+            $('#contentDiv').hide();
+        }
+        else if(backcount==2)
+        {
+             $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/2.png').fadeIn(100);
+                $('#countButton').css({top: '32%', left: '70%'});
+              $('#bckbtn').css({visibility:'visible'});
+               $("#aum").html("<span class='red'>এখানে গ্রাহকের মোবাইল নম্বর এন্টার করুন এবং জমা করা –তে আলতো চাপুন.</span>");
+              backcount =1;
+                 count=3;
+             
+               
+          });
+        }
+        else if(backcount==3)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/3.png').fadeIn(100);
+             $('#countButton').css({top: '61%', left: '66%'});
+              $('#bckbtn').css({visibility:'visible'});
+               $("#aum").html("<span class='red'>গ্রাহক অ্যাক্টিভেশন কোডটি পেয়ে থাকবেন, তাদের কোডটি জিজ্ঞাসা করুন এবং এণ্টার- এ প্রেস করুন এবং তারপর জমা করা – তে আলতো চাপুন. মনে রাখবেন, বীমা নীতি অনুযায়ী গ্রাহকের সম্মতি ছাড়া ব্যাঙ্ক অ্যাকাউন্ট খুলবেন না, নাহলে জরিমানা প্রযোজ্য হবে.</span>");
+              backcount =2;
+                 count=4;
+          });
+        }
+        else if(backcount==4)
+        {
+            $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/4.png').fadeIn(100);
+             $('#countButton').css({top: '50%', left: '40%'});
+              $("#aum").html("<span class='red'>গ্রাহককে বিবৃতি, নিয়ম এবং শর্তাবলীগুলি পড়ার জন্য অনুরোধ করুন এবং সংশ্লিষ্ট চেক বাক্সে রাখুন, গ্রাহককে বেস নম্বর অথবা ভার্চুয়াল আইডি এবং প্যান (যদি পাওয়া যায়) এন্টার করতে বলুন, বায়োমেট্রিক ডিভাইসের মাধ্যমে আঙুলটি স্ক্যান করার জন্য গ্রাহককে অনুরোধ করুন. </span> ");
+              backcount =3;
+                 count=5;
+          });
+        }
+         else if(backcount==5)
+        {
+             $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/5.png').fadeIn(100);
+               $('#countButton').css({top: '62%', left: '40%'});
+              $('#bckbtn').css({visibility:'visible'});
+               $("#aum").html(" <span class='red'>যদি গ্রাহকের কোনও প্যান নম্বর না থাকে এবং তারা তার জন্য আবেদন করে থেকে থাকেন তবে স্বীকারোক্তি সংখ্যা এবং তারিখ এন্টার করতে বলুন.</span>");
+              backcount =4;
+                 count=6;
+          });
+
+        }
+         else if(backcount==6)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/6.png').fadeIn(100);
+            $('#countButton').css({top: '52%', left: '40%'});
+              $('#bckbtn').css({visibility:'visible'});
+               $("#aum").html("<span class='red'>যদি গ্রাহকের কোনো প্যান না থাকে এবং এমনকি তারা এর জন্য আবেদনও না করে থাকেন, তাহলে না – নির্বাচন  করুন এবং গ্রাহককে বায়োমেট্রিক ডিভাইসের মাধ্যমে আঙুলটি স্ক্যান করতে বলুন.</span>");
+              backcount =5;
+                 count=7;
+          });
+        }
+
+         else if(backcount==7)
+        {
+      
+            $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/7.png').fadeIn(100);
+              $('#countButton').css({top: '67%', left: '65%'});
+              $('#countButton').show();
+              $("#aum").html("<span class='red'>বেস সিস্টেম থেকে গ্রাহকের তথ্য পাওয়া যাবে, যদি গ্রাহকের মূল ঠিকানা যোগাযোগের ঠিকানা থেকে আলাদা হয়, তবে অনুগ্রহ করে যোগাযোগের ঠিকানা এন্টার করুন অথবা যদি দুটি একই হয়, তবে এখানে টিক করুন.</span> ");
+              backcount =6;
+                 count=8;
+          });
+        }
+         else if(backcount==8)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/8.png').fadeIn(100);
+              $('#countButton').css({top: '55%', left: '6%'});
+        
+                $("#aum").html("<span class='red'>যোগাযোগের ঠিকানা এন্টার করুন. যোগাযোগের ঠিকানার প্রমানের জন্য নথির ধরণ বাছাই করুন.</span>");
+              backcount =7;
+                 count=9;
+          });
+        }
+         else if(backcount==9)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/9.png').fadeIn(100);
+                  $('#countButton').css({top: '85%', left: '78%'});      
+                $("#aum").html("<span class='red'>আসল নথির উভয় দিকের ছবিগুলি, যেমন পাসপোর্টের সামনের ও পিছনের পেজ এর, ছবির জন্য রিটেলারের ক্যামেরার বোতামটি আলতো চাপুন. আসল নথি যাচাই করুন এবং পরবর্তী –তে আলতো চাপুন.</span>");
+              backcount =8;
+                 count=10;
+          });
+        }
+         else if(backcount==10)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/10.png').fadeIn(100);
+              $('#countButton').css({top: '70%', left: '78%'});        
+              $("#aum").html("<span class='red'>গ্রাহকের অন্যান্য নথি যেমন  পিতার নাম, মাতার নাম, বৈবাহিক অবস্থা, ব্যবসা, বার্ষিক আয়ের  বিকল্পগুলি বাছাই করুন. গ্রাহককে মনোনীত ব্যক্তির ঘোষণার চেকবক্সে থাকতে বলুন, এবং মনোনীত ব্যক্তির নামের প্রথমাংশ এন্টার করতে বলুন.</span>");
+              backcount =9;
+                 count=11;
+          });
+        }
+         else if(backcount==11)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/11.png').fadeIn(100);
+                $('#countButton').css({top: '87%', left: '75%'});       
+                $("#aum").html("<span class='red'>মনোনীত ব্যক্তির নামের শেষাংশ, জন্ম তারিখ এবং মনোনীত ব্যক্তির সাথে সম্পর্ক এন্টার করুন. যদি মনোনীত ব্যক্তির এবং গ্রাহকের যোগাযোগের ঠিকানা এক হয়, তবে চেকবক্সে চেক করুন এবং যদি আলাদা হয়, তবে মনোনীত ব্যক্তির ঠিকানা এন্টার করুন.</span>");
+              backcount =10;
+                 count=12;
+          });
+        }
+         else if(backcount==12)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/12.png').fadeIn(100);
+              $('#countButton').css({top: '57%', left: '58%'});        
+                 $("#aum").html("<span class='red'>যদি মনোনীত ব্যক্তি নাবালক হয়, তবে অভিবাবকের বিবরণ সমূহ এন্টার করুন.</span>");
+              backcount =11;
+                 count=13;
+          });
+        }
+         else if(backcount==13)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/13.png').fadeIn(100);
+              $('#countButton').css({top: '87%', left: '76%'});        
+                $("#aum").html("<span class='red'>পিতা-মাতার নামের প্রথমাংশ, শেষাংশ, জন্ম তারিখ. যদি মনোনীত ব্যক্তির যোগাযোগের ঠিকানা এবং অভিভাবকের ঠিকানা একই হয় , তবে চেকবক্সে আলতো চাপুন যদি আলাদা হয় , তবে অভিভাবকের ঠিকানা এন্টার করুন.</span>");
+              backcount =12;
+                 count=14;
+          });
+        }
+         else if(backcount==14)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/14.png').fadeIn(100);
+          $('#countButton').css({top: '66%', left: '75%'});        
+                 $("#aum").html("<span class='red'>গ্রাহককে বিবৃতিটি পড়তে এবং চেকবক্সটি চেক করতে অনুরোধ করুন , প্রথম জমা দেওয়া টাকা নির্বাচন বা এন্টার করতে  যার পরিমাণ  অন্ততপক্ষে 100 টাকা . পরবর্তী-তে আলতো চাপুন.</span>");
+              backcount =13;
+                 count=15;
+          });
+        }
+         else if(backcount==15)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/15.png').fadeIn(100);
+              $('#countButton').css({top: '77%', left: '34%'});        
+                $("#aum").html("<span class='red'>গ্রাহককে সারাংশ পত্রটি পড়তে অনুরোধ করুন এবং যাচাই এবং প্রমাণীকরণ বোতামটি আলতো চাপুন.</span>");
+              backcount =14;
+                 count=16;
+          });
+        }
+
+
+         else if(backcount==16)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/16.png').fadeIn(100);
+                     $('#countButton').css({top: '77%', left: '29%'});        
+                $("#aum").html("<span class='red'>এয়ারটেল পেমেন্টস ব্যাঙ্কের জন্য গ্রাহককে নিয়ম ও শর্তাবলীগুলি পড়তে এবং স্বীকার করতে অনুরোধ করুন.</span>");
+              backcount =15;
+                 count=17;
+          });
+        }
+
+           else if(backcount==17)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/17.png').fadeIn(100);
+              $('#countButton').css({top: '35%', left: '40%'});        
+                 $("#aum").html("<span class='red'>গ্রাহককে বায়োমেট্রিক ডিভাইসের মাধ্যমে আঙুলের স্ক্যান করতে বলুন.</span>");
+              backcount =16;
+                 count=18;
+          });
+        }
+          else if(backcount==18)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/18.png').fadeIn(100);
+             $('#countButton').css({top: '38%', left: '70%'});   
+                  $("#aum").html("<span class='red'>রিটেলাররা তাদের mPIN এন্টার করুন, এখন গ্রাহক অধিগ্রহণ ফর্ম এবং 60 নম্বর ফর্মে ডিজিটাল স্বাক্ষর জন্য NSDL স্ক্রিনে যান.</span>");
+              backcount =17;
+                 count=19;
+          });
+        }
+               else if(backcount==19)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/19.png').fadeIn(100);
+              $('#countButton').css({top: '84%', left: '3%'});        
+                $("#aum").html("<span class='red'>গ্রাহককে নিয়ম ও শর্তাবলীগুলি পড়তে এবং স্বীকার করতে বলুন. ওকে –তে আলতো চাপুন.</span>");
+              backcount =18;
+                 count=20;
+          });
+        }
+          else if(backcount==20)
+        {
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/20.png').fadeIn(100);
+                 
+               $('#countButton').css({top: '32%', left: '35%'});       
+                $("#aum").html("<span class='red'>এখানে গ্রাহককে আধার নম্বর ও আধার ভার্চুয়াল আইডি এবং নিয়ম ও শর্তাবলীগুলি স্বীকার করতে বলুন.</span>");
+              backcount =19;
+                 count=21;
+          });
+        }
+         else if(backcount==21)
+        {
+			
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/21.png').fadeIn(100);
+                 $('#countButton').show(); 
+              $('#PointsRemBtn').hide();   
+              $('#countButton').css({top: '51%', left: '2%'});    
+                 $("#aum").html("<span class='red'>বায়োমেট্রিক ডিভাইসের জন্য তার দ্বারা যুক্ত ডিভাইস নির্বাচন করুন এবং গ্রাহককে ফিঙ্গার স্ক্যান করতে এবং তা জমা করতে বলুন.</span>");
+              backcount =20;
+                 count=22;
+          });
+        }
+		 else if(backcount==22)
+        {
+			
+              $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/22.png').fadeIn(100);
+                 $('#countButton').show(); 
+              $('#PointsRemBtn').hide();   
+              $('#countButton').css({top: '56%', left: '40%'});    
+                 $("#aum").html("<span class='red'>অভিনন্দন!ব্যাঙ্ক অ্যাকাউন্ট খোলার প্রক্রিয়াটি সম্পন্ন হয়েছে. এবং গ্রাহক অবশ্যই বার্তাটি পাবেন.</span>");
+              backcount =21;
+                 count=23;
+          });
+        }
+ 
+    }
+
+
+     homebuttton.onclick = function()
+      {
+
+  
+        $('#introdiv1').show();
+        $('#contentDiv').hide();
+            $('#introdiv2').hide();
+			$('#PointsRemBtn').hide();
+             $('#countButton').show(); 
+            $("#mainImg").fadeOut(1, function () {
+              $(this).attr('src', 'images/1.png').fadeIn(100);
+              $('#countButton').css({top: '23%', left: '80%'});
+              $('#PointsRemBtn').hide();
+              $("#aum").html(" <span class='red'>ব্যাঙ্ক বিভাগের অধীনে ব্যাঙ্ক অ্যাকাউন্ট খুলুন –এ আলতো চাপুন.</span>");
+              backcount=0;
+              count=2;
+          
+          });
+        }
+         </script>
