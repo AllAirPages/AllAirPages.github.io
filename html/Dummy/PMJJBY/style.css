@@ -158,7 +158,7 @@ left: 25%;
 }*/
 .container img
 {
-	height:100%;
+	height:90%;
 	
 }
 .container1 img
@@ -189,6 +189,17 @@ left: 25%;
   float: left;
 
 }
+.container .button1 {
+    position: absolute;
+    height: 45px;
+    width: 50px;
+    left: 77%;
+    top: 25%;
+}
+.counter{
+    position: absolute;
+    bottom: 0;
+}
 @media only screen and (min-width:320px) and (max-width: 1280px) and (orientation: portrait){
  	.wrapper{
 	
@@ -200,6 +211,14 @@ left: 25%;
 
 .red1{
   font-size: 10px;
+}
+
+.container .button1 {
+    position: absolute;
+    height: 45px;
+    width: 50px;
+    left: 80%;
+    top: 32%;
 }
 .certificationbtn
 {
@@ -290,10 +309,8 @@ top: 26%;
 	height:88vh;
 }
 .counter{
-	position:relative;
-	bottom:0;
-	  
-    top: -40px;
+    position: absolute;
+    bottom: 0;
 }
 .red11{
 

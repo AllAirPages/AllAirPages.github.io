@@ -238,7 +238,7 @@ var count = 2;
         {
              $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/6.png').fadeIn(100);
-              $('#countButton').css({top: '65%', left: '35%'});
+              $('#countButton').css({top: '65%', left: '35%',padding: '10px'});
               $("#aum").html("<span class='red red11'>যেহেতু গ্রাহককে সবকটিতে টিক দিতে হবে এবং বায়োমেট্রিক প্রমাণীকরন গ্রহন করতে হবে, তাই গ্রাহককে বিবৃতি, নিয়ম ও শর্তাবলী পড়তে অনুরোধ করুন, এবং তাকে পরের বছর বীমা পুনর্নবীকরণের জন্য স্বয়ংক্রিয় ডেবিট চুক্তির সম্পর্কেও বলুন.</span>");
               backcount =5;
                  count=7;
@@ -308,15 +308,16 @@ var count = 2;
         {
             $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/1.png').fadeIn(100);
-             $('#countButton').css({top: '31%', left: '80%'});
-              $('#bckbtn').css({visibility:'hidden'});
+             $('#countButton').css({top: '26%', left: '76%'});
+              $('#bckbtn').css({visibility:'visible'});
               $("#aum").html(" <span class='red'>মিত্র অ্যাপ্লিকেশন এবং ব্যাঙ্ক বিভাগে লগইন করুন, প্রধানমন্ত্রীর জীবন জ্যোতি বীমা যোজনা (PMJJBY) তে আলতো চাপুন.</span>");
-              backcount =7;
+              backcount =0;
               count=2;
           });
         }
 		else if(backcount==0)
         {
+          // $('#introDiv').show();
             $('#contentDiv').hide();
 			$('#PointsToRemember3').show();
         }
@@ -371,7 +372,7 @@ var count = 2;
         {
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/6.png').fadeIn(100);
-                $('#countButton').css({top: '65%', left: '35%'});
+                $('#countButton').css({top: '65%', left: '35%',padding: '10px'});
               $('#bckbtn').css({visibility:'visible'});
               $("#aum").html("<span class='red'>যেহেতু গ্রাহককে সবকটিতে টিক দিতে হবে এবং বায়োমেট্রিক প্রমাণীকরন গ্রহন করতে হবে, তাই গ্রাহককে বিবৃতি, নিয়ম ও শর্তাবলী পড়তে অনুরোধ করুন, এবং তাকে পরের বছর বীমা পুনর্নবীকরণের জন্য স্বয়ংক্রিয় ডেবিট চুক্তির সম্পর্কেও বলুন.</span>");
               backcount =5;
@@ -429,7 +430,7 @@ var count = 2;
               $("#mainImg").fadeOut(10, function () {
               $(this).attr('src', 'images/1.png').fadeIn(100);
               $('#countButton').show();
-              $('#countButton').css({top: '32%', left: '80%'});
+              $('#countButton').css({top: '26%', left: '76%'});
                $('#bckbtn').css({visibility:'hidden'});
               $("#aum").html(" <span class='red'>মিত্র অ্যাপ্লিকেশন এবং ব্যাঙ্ক বিভাগে লগইন করুন, প্রধানমন্ত্রীর জীবন জ্যোতি বীমা যোজনা (PMJJBY) তে আলতো চাপুন.</span>");
             
