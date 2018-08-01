@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta http-equiv="Content-Language" content="hi" />
+	<title>CASH MANAGEMENT SERVICES</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+
+	
+		
+		
+
+
+		 <!-- <div class="image-div">
+			<div class="img-div">
+				<img src="images/1.jpg">	
+
+			</div> -->
+			<div class="wrapper">
+	
+
+
+
+
+
+      <div id="contentDiv">
+      <div class="logo_desc">CASH MANAGEMENT SERVICES</div>
+      <div class="text-div">
+            <div class="back-btn-div"><img class="back-btn" id="bckbtn" value="backcount" src="images/back.png" style="visibility: hidden;"></div>
+            <div class="bottom-text-div"><p class="text-style" id="aum"><span>Login to the Mitra App and Go to Airtel Bank Section, Tap CASH MANAGEMENT SERVICES.</span></p></div>
+            <div class="back-btn-div"><img class="back-btn" id="homebtn" src="images/home.png"></div>
+        </div>
+      <div class="container">
+      <img src="images/1.png" id="mainImg">
+        <div class="btnPos"> <img src="images/btn.gif" class="button1" value="Count" id="countButton"></div>
+      
+    </div>
+    </div>
+           
+</div>  
+
+ <div class="counter">   
+  <img src="https://www.reliablecounter.com/count.php?page=https://allairpages.github.io/html/PMJJBY/index.html8801384&digit=style/plain/6/&reloads=0" alt="" title="" border="0">
+
+</div>
+
+	
+	
+
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script>
+function callpage()
+{
+	 window.location.href = '../english.html';
+    return false;
+}
+
+{
+  $('#contentDiv').show();
+  $('#PointsToRemember3').hide();
+    $('#bckbtn').show();
+}
+
+var count = 2;
+	  var backcount=0;
+    var homebuttton;
+      var button = document.getElementById("countButton");
+       var backbutton = document.getElementById("bckbtn");
+
+      var homebuttton = document.getElementById("homebtn");
+      button.onclick = function()
+      {
+
+     
+        if(count==2)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/2.png').fadeIn(100);
+              $('#countButton').css({top: '38%', left: '36%'});
+              $('#bckbtn').css({visibility:'visible'});
+              $("#aum").html("<span class='red'>Select Company and Enter Customer's Account linked Mobile Number ,Tap FETCH DETAILS.</span>");
+              backcount =1;
+                 count=3;
+          });
+        }
+        else if(count==3)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/3.png').fadeIn(100);
+              $('#countButton').css({top: '44%', left: '36%'});
+              $("#aum").html("<span class='red'>Enter the Amount and Tap SUBMIT.</span>");
+              backcount =2;
+                 count=4;
+          });
+        }
+        else if(count==4)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/4.png').fadeIn(100);
+              $('#countButton').css({top: '44%', left: '55%'});
+              $("#aum").html("<span class='red'>Enter the Depositer's Mobile Number and Tap Proceed.</span> ");
+              backcount =3;
+                 count=5;
+          });
+        }
+        else if(count==5)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/5.png').fadeIn(100);
+              $('#countButton').css({top: '54%', left: '57%'});
+              $("#aum").html(" <span class='red'>Enter 6 digit Verification code and 4 digit Retailer mPIN number, Tap Verify.</span>");
+              backcount =4;
+                 count=6;
+          });
+        }
+         else if(count==6)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/6.png').fadeIn(100);
+              $('#countButton').css({top: '65%', left: '35%', padding: '10px', visibility:'hidden'});
+              $("#aum").html("<span class='red '>Congratulations! Amount has been credit to Receiver's Account.</span>");
+              backcount =5;
+                 count=7;
+          });
+
+        }
+   
+
+     
+         else if(count==1)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/1.png').fadeIn(100);
+              $('#countButton').css({top: '38%', left: '74%'});
+               $('#bckbtn').css({visibility:'hidden'});
+                  $('#certification').hide();
+                   $('#FAQ').hide();
+              
+              $("#aum").html(" <span class='red'>Login to the Mitra App and Bank Section, Tap on CASH MANAGEMENT SERVICES.</span>");
+              backcount =7;
+                 count=2;
+          });
+        }
+    }
+
+
+
+
+     backbutton.onclick = function()
+      {
+
+     
+        if(backcount==1)
+        {
+            $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/1.png').fadeIn(100);
+             $('#countButton').css({top: '36%', left: '60%'});
+              $('#bckbtn').css({visibility:'hidden'});
+              $("#aum").html(" <span class='red'>Login to the Mitra App and Go to Airtel Bank Section, Tap CASH MANAGEMENT SERVICES.</span>");
+              backcount =0;
+              count=2;
+          });
+        }
+		else if(backcount==0)
+        {
+            $('#contentDiv').show();
+			// $('#PointsToRemember3').show();
+        }
+        else if(backcount==2)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/2.png').fadeIn(100);
+              $('#countButton').css({top: '38%', left: '36%'});
+              $('#bckbtn').css({visibility:'visible'});
+                 $("#aum").html("<span class='red'>Select Company and Enter Customer's Account linked Mobile Number ,Tap FETCH DETAILS.</span>");
+              backcount =1;
+                 count=3;
+             
+               
+          });
+        }
+        else if(backcount==3)
+        {
+              $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/3.png').fadeIn(100);
+             $('#countButton').css({top: '44%', left: '36%'});
+              $('#bckbtn').css({visibility:'visible'});
+                        $("#aum").html("<span class='red'>Enter the Amount and Tap Submit.</span>");
+              backcount =2;
+                 count=4;
+          });
+        }
+        else if(backcount==4)
+        {
+            $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/4.png').fadeIn(100);
+               $('#countButton').css({top: '44%', left: '55%'});
+              $('#bckbtn').css({visibility:'visible'});
+             $("#aum").html("<span class='red'>Enter the Depositer's Mobile Number to receive 6 digit Verification code and Tap Proceed.</span> ");
+              backcount =3;
+                 count=5;
+          });
+        }
+         else if(backcount==5)
+        {
+             $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/5.png').fadeIn(100);
+                $('#countButton').css({top: '54%', left: '57%' ,visibility: 'visible'});
+              $('#bckbtn').css({visibility:'visible'});
+
+               $("#aum").html(" <span class='red'>Enter 6 digit Verification code and Retailer mPIN number, Tap Verify.</span>");
+              backcount =4;
+                 count=6;
+          });
+
+        }
+         else if(backcount==6)
+        {
+              $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/6.png').fadeIn(100);
+                $('#countButton').css({top: '65%', left: '35%',padding: '10px'});
+              $('#bckbtn').css({visibility:'visible'});
+              $("#aum").html("<span class='red'>Congratulations! Amount has been credit to Receiver's Account.</span>");
+              backcount =5;
+                 count=7;
+          });
+        }
+
+            }
+
+
+     homebuttton.onclick = function()
+      {
+              $('#contentDiv').show();
+               $('#certification').hide();
+               $('#FAQ').hide();
+              
+              $("#mainImg").fadeOut(10, function () {
+              $(this).attr('src', 'images/1.png').fadeIn(100);
+              $('#countButton').show();
+              $('#countButton').css({top: '36%', left: '60%', visibility: 'visible'});
+               $('#bckbtn').css({visibility:'hidden'});
+              $("#aum").html(" <span class='red'>Login to the Mitra App and Go to Airtel Bank Section, Tap CASH MANAGEMENT SERVICES.</span>");
+            
+                 count=2;
+				 	 backcount=0;
+          });
+        
+        
+           
+         }
+</script>
+</body>
+</html>
